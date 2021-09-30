@@ -1,0 +1,290 @@
+body {
+    background-color: #ECFAF1;
+}
+@font-face {
+    font-family: Smartgen;
+    src: url(LobsterTwo-Bold.ttf);
+  }
+
+  @font-face {
+    font-family: sign up;
+    src: url(Lemonada-VariableFont_wght.ttf);
+  }
+
+  h1 {
+    position: absolute;
+    width: 231px;
+    height: 66px;
+    left: calc(50% - 231px/2 + 5.5px);
+    top: 17px;
+    
+    font-family: Smartgen;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 150%;
+    /* or 54px */
+    
+    text-align: center;
+    
+    color: #204051;
+    
+    mix-blend-mode: normal;
+  }
+
+  .button-home {
+    position: absolute;
+    width: 301px;
+    height: 151px;
+    left: 30px;
+    top: 148px;
+    
+    background: #3B6978;
+    /* Colors / Black */
+    justify-content: center;
+    border: 2px solid #18191F;
+    box-sizing: border-box;
+    /* Shadow / 400 */
+    
+    box-shadow: 0px 4px 0px #18191F;
+    border-radius: 16px;
+    
+  }
+  
+  
+    .rectangle {
+      position: absolute;
+      width: 225px;
+      height: 82px;
+      left: 38px;
+      top: 33px;
+      
+      background: #DFF5E7;
+     
+      border: 2px solid #18191F;
+      box-sizing: border-box;
+      /* Shadow / 400 */
+      
+      box-shadow: 0px 4px 0px #18191F;
+      border-radius: 16px;
+      
+    }
+    .kata-button {
+        position: absolute;
+    width: 192.27px;
+    height: 43.05px;
+    left: 15px;
+    top: 18px;
+    
+    font-family: sign up;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 150%;
+    /* or 21px */
+    
+    text-align: center;
+    
+    color: #000000;
+      }
+    
+      hr {
+        position: absolute;
+        width: 500px;
+        height: 0px;
+        left: 0px;
+        top: 88px;
+        
+        border: 0.5px solid rgba(0, 0, 0, 0.75);
+        transform: rotate(0.16deg); 
+      }
+      .perasaan {
+        position: absolute;
+        width: 296px;
+        height: 28px;
+        left: 55px;
+        top: 317px;
+        
+        font-family: sign up;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 150%;
+      
+        color: #000000;
+    
+      }
+      .button-konsul {
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 18px 0px;
+    
+    position: absolute;
+    width: 81px;
+    height: 76px;
+    left: 88px;
+    top: 410px;
+    
+    background: #E7FBEE;
+    border: 2px solid #3E5962;
+    box-sizing: border-box;
+    /* Shadow / 400 */
+    
+    box-shadow: 0px 4px 0px #18191F;
+    border-radius: 16px;
+    
+      }
+    
+      .button-agenda {
+        position: absolute;
+    width: 81px;
+    height: 76px;
+    left: 195px;
+    top: 410px;
+    
+    background: #E7FBEE;
+    border: 2px solid #3E5962;
+    box-sizing: border-box;
+    /* Shadow / 400 */
+    
+    box-shadow: 0px 4px 0px #18191F;
+    border-radius: 16px;
+      }
+    
+      .konsul {
+        position: absolute;
+    width: 95px;
+    height: 50px;
+    left: -8px;
+    top: 10px;
+      }
+
+      .artikel {
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 18px 0px;
+    
+    position: absolute;
+    width: 301px;
+    height: 49px;
+    left: 30px;
+    top: 507px;
+    
+    background: #E7FBEE;
+    border: 2px solid #3E5962;
+    box-sizing: border-box;
+    /* Shadow / 400 */
+    
+    box-shadow: 0px 4px 0px #18191F;
+    border-radius: 16px;
+    font-family: sign up;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 150%;
+    /* identical to box height, or 15px */
+    
+    text-align: center;
+      }
+    
+      .artikell {
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 18px 0px;
+    
+    position: absolute;
+    width: 301px;
+    height: 49px;
+    left: 28px;
+    top: 567px;
+    
+    background: #E7FBEE;
+    border: 2px solid #3E5962;
+    box-sizing: border-box;
+    /* Shadow / 400 */
+    
+    box-shadow: 0px 4px 0px #18191F;
+    border-radius: 16px;
+    font-family: sign up;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 150%;
+    /* identical to box height, or 15px */
+    
+    text-align: center;
+      }
+
+    .logo {
+      position: absolute;
+    width: 1000px;
+    height: 575.46px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+
+    .profil {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      left: 29px;
+      top: 95px;
+    }
+
+  .senang {
+      position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 50px;
+  top: 345px;
+    }
+  
+  .sedih {
+      position: absolute;
+      width: 34px;
+      height: 1px;
+      left: 105px;
+      top: 341px;
+      
+    }
+  
+  .marah {
+      position: absolute;
+      width: 38px;
+      height: 45px;
+      left: 150px;
+      top: 344px;
+      
+    }
+  
+  .kesal {
+      position: absolute;
+      width: 43px;
+      height: 47px;
+      left: 198px;
+      top: 344px;
+      
+    }
+  
+  .kecewa {
+      position: absolute;
+  width: 31px;
+  height: 43px;
+  left: 240px;
+  top: 344px;
+  
+      
+    }
+
+    .style {
+      position: absolute;
+      width: 1000px;
+      height: 575.46px;
+      left: 0px;
+      top: 0px;
+
+    }

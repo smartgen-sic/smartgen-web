@@ -1,0 +1,78 @@
+body {
+    background-color: #ECFAF1;
+}
+@font-face {
+    font-family: Smartgen;
+    src: url(LobsterTwo-Bold.ttf);
+  }
+
+  @font-face {
+    font-family: sign up;
+    src: url(Lemonada-VariableFont_wght.ttf);
+  }
+
+ .tittle {
+    position: absolute;
+    width: 231px;
+    height: 66px;
+    left: calc(50% - 231px/2 - 0.5px);
+    top: 31px;
+    
+    font-family: Smartgen;
+    src: url(LobsterTwo-Bold.ttf);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 150%;
+    /* or 54px */
+    
+    text-align: center;
+    
+    color: #204051;
+    
+    mix-blend-mode: normal;
+ }
+
+ .succes-pay {
+    position: absolute;
+    width: 165.62px;
+    height: 250px;
+    left: 97px;
+    top: 148px;
+ }
+
+ .text-sukses {
+    position: absolute;
+    width: 179px;
+    height: 27px;
+    left: 90px;
+    top: 396px;
+    
+    font-weight: bold;
+    font-family: sign up;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 150%;
+    /* identical to box height, or 27px */
+    
+    text-align: center;
+    
+    color: #000000;
+    
+ }
+
+ .button-start {
+    position: absolute;
+    height: 35px;
+    width: 276px;
+    left: 45px;
+    right: 39px;
+    top: 535px;
+    
+    color :#ECFAF1;
+    background: #18191F;
+    border-radius: 48px;
+    font-family: sign up;
+    font-size: 12px;
+ }
