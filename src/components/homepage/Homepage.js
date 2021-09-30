@@ -34,7 +34,7 @@ export default function Homepage() {
             <img class="sedih" src={sedih} />
             <img class="senang" src={senang} />
             <Link to="/psikologg">
-    <button type="button" class="button-konsul">
+            <button type="button" class="button-konsul">
              <div class="konsul">  <img src={konseling} /></div>
             </button></Link>
 
@@ -44,8 +44,7 @@ export default function Homepage() {
              </div>
             </button>
             <Link to="https://kepri.bnn.go.id/hidup-sehat-dan-bahagia-tanpa-narkoba/">
-            <button type="button" class="artikel">Artikel</button> </Link>
-            <button type="button" class="artikell">Artikel</button>
+            <button type="button" class="artikell">Artikel</button> </Link>
         </div>
     );
 }
