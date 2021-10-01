@@ -4,29 +4,33 @@ import "./App.css";
 import Login from "./components/login";
 import Homepage from "./components/homepage/Homepage";
 import Register from "./components/register";
-<<<<<<< HEAD
 import Signup from "./components/signup";
 import Sukses from "./components/sukses";
 import Psikolog from "./components/psikolog";
 import Psikologg from "./components/pilih psikolog";
+import Pembukaan from "./components/pembukaan";
+import Akun from "./components/akun";
+import Pembayaran from "./components/pembayaran";
+import Jurnal from "./components/jurnal";
+import Fitur from "./components/fitur";
 
-=======
->>>>>>> cf33e6f714fd87fd881cd44c12e20ecee8113b43
 
 function App() {
     return (
         <Router>
             <Switch>
                 <Route exact path="/">
-                    <Login />
+                    <Pembukaan />
                 </Route>
                 <Route exact path="/homepage">
                     <Homepage />
                 </Route>
+                <Route exact path="/login">
+                    <Login />
+                </Route>
                 <Route exact path="/register">
                     <Register />
                 </Route>
-<<<<<<< HEAD
                 <Route exact path="/signup">
                     <Signup />
                 </Route>
@@ -39,15 +43,21 @@ function App() {
                 <Route exact path="/psikologg">
                     <Psikologg />
                 </Route>
-=======
->>>>>>> cf33e6f714fd87fd881cd44c12e20ecee8113b43
+                <Route exact path="/akun">
+                    <Akun />
+                </Route>
+                <Route exact path="/pembayaran">
+                    <Pembayaran />
+                </Route>
+                <Route exact path="/jurnal">
+                    <Jurnal />
+                </Route>
+                <Route exact path="/fitur">
+                    <Fitur />
+                </Route>
             </Switch>
         </Router>
     );
 }
 
-<<<<<<< HEAD
 export default App;
-=======
-export default App;
->>>>>>> cf33e6f714fd87fd881cd44c12e20ecee8113b43

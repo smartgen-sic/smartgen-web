@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import google from "./google.png";
 import "./index.css";
 
 export default function Login() {
@@ -29,7 +29,7 @@ export default function Login() {
         <h3 class="google">Or login with</h3>
     
         <div class="gugel">
-            <i class="fab fa-google"></i>
+            <img src={google} />
         </div>
         </center>
     </body>

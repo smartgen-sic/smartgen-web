@@ -1,0 +1,202 @@
+body {
+    background-color: #ECFAF1;
+}
+
+@font-face {
+    font-family: Smartgen;
+    src: url(LobsterTwo-Bold.ttf);
+  }
+
+  @font-face {
+    font-family: sign up;
+    src: url(Lemonada-VariableFont_wght.ttf);
+  }
+
+.home {
+    position: absolute;
+left: 9.19%;
+right: 83.84%;
+top: 5.55%;
+bottom: 91.45%;
+
+color: #204051;
+}
+
+.tittle {
+    position: absolute;
+width: 231px;
+height: 66px;
+left: calc(50% - 231px/2 - 4px);
+top: 27px;
+
+font-family: Smartgen;
+src: url(LobsterTwo-Bold.ttf);
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 150%;
+/* or 54px */
+
+text-align: center;
+
+color: #204051;
+
+mix-blend-mode: normal;
+
+}
+
+.subtittle {
+    
+    position: absolute;
+    width: 232.14px;
+    height: 40.01px;
+    left: 92px;
+    top: 127.79px;
+    
+    font-family: There ;
+src: url(Lemonada-VariableFont_wght.ttf);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 150%;
+    /* or 18px */
+    
+    text-align: center;
+    
+    color: #000000;
+    
+    transform: rotate(-0.18deg)
+}
+
+.photo {
+    position: absolute;
+    width: 78.74px;
+    height: 85px;
+    left: 30px;
+    top: 100px;
+}
+
+.bk{
+    position: absolute;
+width: 247px;
+height: 76px;
+left: 56px;
+top: 204px;
+
+background: #CAE8D5;
+border: 2px solid #3E5962;
+box-sizing: border-box;
+/* Shadow / 400 */
+
+box-shadow: 0px 4px 0px #18191F;
+border-radius: 16px;
+}
+
+.nama {
+    position: absolute;
+width: 95px;
+height: 15px;
+left: 90px;
+top: -15px;
+
+font-family: Lemonada;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 150%;
+/* or 18px */
+
+text-align: center;
+
+color: #204051;
+}
+
+.teks {
+    position: absolute;
+width: 160px;
+height: 30px;
+left: 68px;
+top: 25px;
+
+font-family: Lemonada;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 150%;
+/* or 15px */
+
+text-align: center;
+
+color: #204051;
+}
+
+.foto {
+    position: absolute;
+width: 35px;
+height: 35px;
+left: 15px;
+top: 20px;
+}
+
+.diary{
+    position: absolute;
+width: 247px;
+height: 76px;
+left: 56px;
+top: 308px;
+
+background: #CAE8D5;
+border: 2px solid #3E5962;
+box-sizing: border-box;
+/* Shadow / 400 */
+
+box-shadow: 0px 4px 0px #18191F;
+border-radius: 16px;
+}
+
+.nama-1 {
+    position: absolute;
+width: 100px;
+height: 15px;
+left: 90px;
+top: -15px;
+
+font-family: Lemonada;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 150%;
+/* or 18px */
+
+text-align: center;
+
+color: #204051;
+}
+
+.teks-1 {    
+position: absolute;
+width: 174px;
+height: 16px;
+left: 55px;
+top: 25px;
+
+font-family: Lemonada;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 150%;
+/* or 15px */
+
+text-align: center;
+
+color: #204051;
+
+}
+
+.photo3 {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 15px;
+    top: 18px;
+}
