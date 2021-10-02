@@ -1,5 +1,4 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import "./App.css";
 
 import Login from "./components/login";
 import Homepage from "./components/homepage/Homepage";
@@ -13,7 +12,6 @@ import Akun from "./components/akun";
 import Pembayaran from "./components/pembayaran";
 import Jurnal from "./components/jurnal";
 import Fitur from "./components/fitur";
-
 
 function App() {
     return (

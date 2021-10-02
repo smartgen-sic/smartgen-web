@@ -1,39 +1,37 @@
-
 body {
-    background-color: #ECFAF1;
+    background-color: #ecfaf1;
 }
 @font-face {
     font-family: Smartgen;
     src: url(LobsterTwo-Bold.ttf);
-  }
-
-  @font-face {
-    font-family: Sign up;
-    src: url(Lemonada-VariableFont_wght.ttf);
-  }
-.tittle {
-    position: absolute;
-width: 231px;
-height: 66px;
-left: calc(50% - 231px/2 - 0.5px);
-top: 36px;
-
-font-family: Smartgen;
-src: url(LobsterTwo-Bold.ttf);
-
-font-style: normal;
-font-weight: bold;
-font-size: 36px;
-line-height: 150%;
-/* or 54px */
-
-text-align: center;
-
-color: #204051;
-
-mix-blend-mode: normal;
 }
 
+@font-face {
+    font-family: Sign up;
+    src: url(Lemonada-VariableFont_wght.ttf);
+}
+.tittle {
+    position: absolute;
+    width: 231px;
+    height: 66px;
+    left: calc(50% - 231px / 2 - 0.5px);
+    top: 36px;
+
+    font-family: Smartgen;
+    src: url(LobsterTwo-Bold.ttf);
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 150%;
+    /* or 54px */
+
+    text-align: center;
+
+    color: #204051;
+
+    mix-blend-mode: normal;
+}
 
 .login-page {
     text-align: center;
@@ -54,36 +52,36 @@ mix-blend-mode: normal;
 
 .subtittle {
     position: absolute;
-width: 327px;
-height: 40px;
-left: 17px;
-top: 207px;
+    width: 327px;
+    height: 40px;
+    left: 17px;
+    top: 207px;
 
-font-family: Sign up;
-src: url(LobsterTwo-Bold.ttf);
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 40px;
-/* identical to box height, or 250% */
+    font-family: Sign up;
+    src: url(LobsterTwo-Bold.ttf);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 40px;
+    /* identical to box height, or 250% */
 
-justify-content: center;
-text-align: center;
+    justify-content: center;
+    text-align: center;
 
-color: #000000;
+    color: #000000;
 }
 
 .button-sign-up {
     position: absolute;
-width: 272px;
-height: 35px;
-left: 55px;
-top: 437px;
-background-color: #18191F;
-color: #CAE8D5;
-border-radius: 48px;
-font-family: lemonada;
-font-style: normal;
+    width: 272px;
+    height: 35px;
+    left: 55px;
+    top: 437px;
+    background-color: #18191f;
+    color: #cae8d5;
+    border-radius: 48px;
+    font-family: lemonada;
+    font-style: normal;
 }
 
 .field-signup {
@@ -92,25 +90,24 @@ font-style: normal;
     height: 35px;
     left: 42px;
     top: 273px;
-    
 
-background: rgba(255, 255, 255, 0.73);
-border: 1px solid #000000;
-box-sizing: border-box;
-border-radius: 48px;
+    background: rgba(255, 255, 255, 0.73);
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 48px;
 
-font-family: Sign up;
-src: url(LobsterTwo-Bold.ttf);
-font-style: normal;
-font-weight: 600;
-font-size: 12px;
-line-height: 28px;
+    font-family: Sign up;
+    src: url(LobsterTwo-Bold.ttf);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 28px;
 
-flex: none;
-order: 1;
-flex-grow: 0;
-margin: 0px 12px;
-text-align: center ;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 12px;
+    text-align: center;
 }
 
 .field-pw {
@@ -120,23 +117,23 @@ text-align: center ;
     left: 42px;
     top: 318px;
 
-background: rgba(255, 255, 255, 0.73);
-border: 1px solid #000000;
-box-sizing: border-box;
-border-radius: 48px;
+    background: rgba(255, 255, 255, 0.73);
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 48px;
 
-font-family: Sign up;
-src: url(LobsterTwo-Bold.ttf);
-font-style: normal;
-font-weight: 600;
-font-size: 12px;
-line-height: 28px;
+    font-family: Sign up;
+    src: url(LobsterTwo-Bold.ttf);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 28px;
 
-flex: none;
-order: 1;
-flex-grow: 0;
-margin: 0px 12px;
-text-align: center ;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 12px;
+    text-align: center;
 }
 
 .field-pw-again {
@@ -145,82 +142,82 @@ text-align: center ;
     height: 35px;
     left: 42px;
     top: 363px;
-    
-background: rgba(255, 255, 255, 0.73);
-border: 1px solid #000000;
-box-sizing: border-box;
-border-radius: 48px;
 
-font-family: Sign up;
-src: url(LobsterTwo-Bold.ttf);
-font-style: normal;
-font-weight: 600;
-font-size: 12px;
-line-height: 28px;
+    background: rgba(255, 255, 255, 0.73);
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 48px;
 
-flex: none;
-order: 1;
-flex-grow: 0;
-margin: 0px 12px;
-text-align: center ;
+    font-family: Sign up;
+    src: url(LobsterTwo-Bold.ttf);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 28px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 12px;
+    text-align: center;
 }
 .password {
     position: absolute;
-width: 175px;
-height: 21px;
-left: 159px;
-top: 361px;
+    width: 175px;
+    height: 21px;
+    left: 159px;
+    top: 361px;
 
-font-family: Sign up;
-src: url(LobsterTwo-Bold.ttf);
-font-style: italic;
-font-weight: normal;
-font-size: 12px;
-line-height: 150%;
-/* or 18px */
+    font-family: Sign up;
+    src: url(LobsterTwo-Bold.ttf);
+    font-style: italic;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 150%;
+    /* or 18px */
 
-text-align: center;
+    text-align: center;
 
-color: #000B0F;
+    color: #000b0f;
 }
 .account {
     position: absolute;
-width: 200px;
-height: 100px;
-left: 41px;
-top: 480px;
+    width: 200px;
+    height: 100px;
+    left: 41px;
+    top: 480px;
 
-font-family: Sign up;
-src: url(LobsterTwo-Bold.ttf);
-font-style: italic;
-font-weight: normal;
-font-size: 12px;
-line-height: 150%;
-/* or 18px */
+    font-family: Sign up;
+    src: url(LobsterTwo-Bold.ttf);
+    font-style: italic;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 150%;
+    /* or 18px */
 
-text-align: center;
+    text-align: center;
 
-color: #000B0F;
+    color: #000b0f;
 }
 .signup {
-position: absolute;
-width: 85px;
-height: 21px;
-left: 230px;
-top: 480px;
+    position: absolute;
+    width: 85px;
+    height: 21px;
+    left: 230px;
+    top: 480px;
 
-font-family: Sign up;
-src: url(LobsterTwo-Bold.ttf);
-font-style: normal;
-font-weight: bold;
-font-size: 12px;
-line-height: 150%;
-/* or 18px */
+    font-family: Sign up;
+    src: url(LobsterTwo-Bold.ttf);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 150%;
+    /* or 18px */
 }
 
-.h2 span { 
-     background:#fff; 
-     padding:0 10px; 
+.h2 span {
+    background: #fff;
+    padding: 0 10px;
 }
 .garis {
     position: absolute;
@@ -228,70 +225,68 @@ line-height: 150%;
     height: 0px;
     left: 0px;
     top: 543px;
-    
-    background: #C4C4C4;
-    border: 1px solid rgba(0, 0, 0, 0.75);
 
- } 
- .google {
+    background: #c4c4c4;
+    border: 1px solid rgba(0, 0, 0, 0.75);
+}
+.google {
     position: absolute;
     width: 205px;
     height: 21px;
     left: 78px;
     top: 534px;
-    
+
     font-family: Sign up;
-src: url(LobsterTwo-Bold.ttf);
+    src: url(LobsterTwo-Bold.ttf);
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
     line-height: 150%;
     /* or 18px */
-    
+
     text-align: center;
-    
-    color: #000B0F;
- }
+
+    color: #000b0f;
+}
 .line {
     position: absolute;
     width: 150px;
     height: 0px;
     left: 234px;
     top: 543px;
-    
-    background: #C4C4C4;
+
+    background: #c4c4c4;
     border: 1px solid rgba(0, 0, 0, 0.75);
 }
 .masuk {
     display: flex;
-flex-direction: row;
-align-items: center;
-padding: 0px;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
 
-position: absolute;
-width: 281px;
-height: 28px;
-left: 66px;
-top: 277px;
+    position: absolute;
+    width: 281px;
+    height: 28px;
+    left: 66px;
+    top: 277px;
 }
 .password-icon {
     display: flex;
-flex-direction: row;
-align-items: center;
-padding: 0px;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
 
-position: absolute;
-width: 281px;
-height: 28px;
-left: 66px;
-top: 320px;
+    position: absolute;
+    width: 281px;
+    height: 28px;
+    left: 66px;
+    top: 320px;
 }
 .gugel {
     position: absolute;
-width: 20px;
-height: 20px;
-left: 170px;
-top: 570px;
-font-size: 30px;
-
+    width: 20px;
+    height: 20px;
+    left: 170px;
+    top: 570px;
+    font-size: 30px;
 }
