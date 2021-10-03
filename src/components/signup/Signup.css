@@ -1,14 +1,15 @@
 body {
-    background-color: #CAE8D5;
+    background-color: #cae8d5;
 }
 @font-face {
     font-family: Smartgen;
     src: url(LobsterTwo-Bold.ttf);
-  }
+}
 
-  @font-face {
+@font-face {
     font-family: sign up;
     src: url(Lemonada-VariableFont_wght.ttf);
+<<<<<<< HEAD:src/components/signup/Signup.css
   }
 .smartgen-signup{
     position: absolute;
@@ -24,19 +25,36 @@ font-weight: bold;
 font-size: 48px;
 line-height: 150%;
 /* or 72px */
+=======
+}
+.tittle {
+    position: absolute;
+    width: 231px;
+    height: 66px;
+    left: calc(50% - 231px / 2 + 5.5px);
+    top: 126px;
+>>>>>>> 7f270e2d7e902ce1ca632c9a1409c0a15eea5974:src/components/signup/index.css
 
-text-align: center;
+    font-family: SmartGen;
+    src: url(LobsterTwo-Bold.ttf);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 150%;
+    /* or 72px */
 
-color: #204051;
+    text-align: center;
 
-mix-blend-mode: normal;
+    color: #204051;
 
+    mix-blend-mode: normal;
 }
 
 .subtittle-signup {
     position: absolute;
     width: 327px;
     height: 40px;
+<<<<<<< HEAD:src/components/signup/Signup.css
     left: 35px;
     top: 207px;
 
@@ -51,21 +69,36 @@ line-height: 40px;
 text-align: center;
 
 color: #000000;
+=======
+    left: 17px;
+    top: 207px;
+
+    font-family: Sign up !important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 40px;
+    /* identical to box height, or 250% */
+
+    text-align: center;
+
+    color: #000000;
+>>>>>>> 7f270e2d7e902ce1ca632c9a1409c0a15eea5974:src/components/signup/index.css
 }
 
 .button-sign-up {
     position: absolute;
-width: 272px;
-height: 35px;
-left: 55px;
-top: 437px;
-background-color: #18191F;
-color: #CAE8D5;
-border-radius: 48px;
-font-size: 12px;
-font-family: Sign up;
-src: url(Lemonada-VariableFont_wght.ttf);
-font-style: normal;
+    width: 272px;
+    height: 35px;
+    left: 55px;
+    top: 437px;
+    background-color: #18191f;
+    color: #cae8d5;
+    border-radius: 48px;
+    font-size: 12px;
+    font-family: Sign up;
+    src: url(Lemonada-VariableFont_wght.ttf);
+    font-style: normal;
 }
 
 .field-signup {
@@ -74,25 +107,24 @@ font-style: normal;
     height: 35px;
     left: 42px;
     top: 273px;
-    
 
-background: rgba(255, 255, 255, 0.73);
-border: 1px solid #000000;
-box-sizing: border-box;
-border-radius: 48px;
+    background: rgba(255, 255, 255, 0.73);
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 48px;
 
-font-family: Sign up;
-src: url(Lemonada-VariableFont_wght.ttf);
-font-style: normal;
-font-weight: 600;
-font-size: 12px;
-line-height: 28px;
+    font-family: Sign up;
+    src: url(Lemonada-VariableFont_wght.ttf);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 28px;
 
-flex: none;
-order: 1;
-flex-grow: 0;
-margin: 0px 12px;
-text-align: center ;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 12px;
+    text-align: center;
 }
 
 .field-pw {
@@ -102,23 +134,23 @@ text-align: center ;
     left: 42px;
     top: 318px;
 
-background: rgba(255, 255, 255, 0.73);
-border: 1px solid #000000;
-box-sizing: border-box;
-border-radius: 48px;
+    background: rgba(255, 255, 255, 0.73);
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 48px;
 
-font-family: Sign up;
-src: url(Lemonada-VariableFont_wght.ttf);
-font-style: normal;
-font-weight: 600;
-font-size: 12px;
-line-height: 28px;
+    font-family: Sign up;
+    src: url(Lemonada-VariableFont_wght.ttf);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 28px;
 
-flex: none;
-order: 1;
-flex-grow: 0;
-margin: 0px 12px;
-text-align: center ;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 12px;
+    text-align: center;
 }
 
 .field-pw-again {
@@ -127,56 +159,52 @@ text-align: center ;
     height: 35px;
     left: 42px;
     top: 363px;
-    
-background: rgba(255, 255, 255, 0.73);
-border: 1px solid #000000;
-box-sizing: border-box;
-border-radius: 48px;
 
-font-family: Sign up;
-src: url(Lemonada-VariableFont_wght.ttf);
-font-style: normal;
-font-weight: 600;
-font-size: 12px;
-line-height: 28px;
+    background: rgba(255, 255, 255, 0.73);
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 48px;
 
-flex: none;
-order: 1;
-flex-grow: 0;
-margin: 0px 12px;
-text-align: center ;
+    font-family: Sign up;
+    src: url(Lemonada-VariableFont_wght.ttf);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 28px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 12px;
+    text-align: center;
 }
 
 .fasfa-user {
     position: static;
-left: 0%;
-right: 93.59%;
-top: 17.86%;
-bottom: 17.86%;
+    left: 0%;
+    right: 93.59%;
+    top: 17.86%;
+    bottom: 17.86%;
 
+    /* Inside Auto Layout */
 
-/* Inside Auto Layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
-margin: 0px 12px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 12px;
 }
 
 .signup {
-/* Auto Layout */
+    /* Auto Layout */
 
-display: flex;
-flex-direction: row;
-align-items: center;
-padding: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
 
-position: absolute;
-width: 281px;
-height: 28px;
-left: 76px;
-top: 277px;
-
+    position: absolute;
+    width: 281px;
+    height: 40px;
 }
 
 .password-icon {
@@ -184,13 +212,12 @@ top: 277px;
     flex-direction: row;
     align-items: center;
     padding: 0px;
-    
+
     position: absolute;
     width: 281px;
     height: 28px;
     left: 76px;
     top: 322px;
-    
 }
 
 .password-icon-again {
@@ -198,11 +225,10 @@ top: 277px;
     flex-direction: row;
     align-items: center;
     padding: 0px;
-    
+
     position: absolute;
     width: 281px;
     height: 28px;
     left: 76px;
     top: 367px;
-    
 }

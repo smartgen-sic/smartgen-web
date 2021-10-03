@@ -1,5 +1,4 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import "./App.css";
 
 import Login from "./components/login";
 import Homepage from "./components/homepage/Homepage";
@@ -15,7 +14,6 @@ import Fitur from "./components/fitur";
 import Chat from "./components/chat";
 import Profil from "./components/profil";
 import Bot from "./components/bot";
-
 
 function App() {
     return (
