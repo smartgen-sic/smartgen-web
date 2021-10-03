@@ -8,15 +8,9 @@ export default function Login() {
         <body>
             <center>
                 <div className="Smartgen">
-<<<<<<< HEAD
                     <h1>SmartGen</h1>
                 </div>
                 <h3 class="subtittle-login">Login your account</h3>
-=======
-                    <h1 class="tittle">SmartGen</h1>
-                </div>
-                <h3 class="subtittle">Login your account</h3>
->>>>>>> 7f270e2d7e902ce1ca632c9a1409c0a15eea5974
                 <input
                     class="field-signup"
                     type="text"
@@ -43,11 +37,7 @@ export default function Login() {
                 </Link>
                 <h3 class="account">Don't have an account?</h3>
                 <Link to="/signup">
-<<<<<<< HEAD
                     <a class="signup-satu">
-=======
-                    <a class="signup">
->>>>>>> 7f270e2d7e902ce1ca632c9a1409c0a15eea5974
                         <h3>Sign Up</h3>
                     </a>
                 </Link>
@@ -57,7 +47,6 @@ export default function Login() {
                     integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
                     crossorigin="anonymous"
                 ></script>
-<<<<<<< HEAD
                 <div className="garis-2">
                <hr /></div>
                 <h3 class="google">Or login with</h3>
@@ -65,13 +54,6 @@ export default function Login() {
                <hr /></div>
                 <div class="gugel">
                     <img src={google} alt="google" className="gambar-google" />
-=======
-
-                <h3 class="google">Or login with</h3>
-
-                <div class="gugel">
-                    <img src={google} />
->>>>>>> 7f270e2d7e902ce1ca632c9a1409c0a15eea5974
                 </div>
             </center>
         </body>

@@ -9,7 +9,6 @@ body {
 @font-face {
     font-family: sign up;
     src: url(Lemonada-VariableFont_wght.ttf);
-<<<<<<< HEAD:src/components/signup/Signup.css
   }
 .smartgen-signup{
     position: absolute;
@@ -25,15 +24,6 @@ font-weight: bold;
 font-size: 48px;
 line-height: 150%;
 /* or 72px */
-=======
-}
-.tittle {
-    position: absolute;
-    width: 231px;
-    height: 66px;
-    left: calc(50% - 231px / 2 + 5.5px);
-    top: 126px;
->>>>>>> 7f270e2d7e902ce1ca632c9a1409c0a15eea5974:src/components/signup/index.css
 
     font-family: SmartGen;
     src: url(LobsterTwo-Bold.ttf);
@@ -54,7 +44,6 @@ line-height: 150%;
     position: absolute;
     width: 327px;
     height: 40px;
-<<<<<<< HEAD:src/components/signup/Signup.css
     left: 35px;
     top: 207px;
 
@@ -69,21 +58,6 @@ line-height: 40px;
 text-align: center;
 
 color: #000000;
-=======
-    left: 17px;
-    top: 207px;
-
-    font-family: Sign up !important;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 40px;
-    /* identical to box height, or 250% */
-
-    text-align: center;
-
-    color: #000000;
->>>>>>> 7f270e2d7e902ce1ca632c9a1409c0a15eea5974:src/components/signup/index.css
 }
 
 .button-sign-up {

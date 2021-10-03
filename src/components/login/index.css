@@ -10,7 +10,6 @@ body {
     font-family: Sign up;
     src: url(Lemonada-VariableFont_wght.ttf);
 }
-<<<<<<< HEAD
 .Smartgen {
     position: absolute;
 width: 231px;
@@ -28,24 +27,6 @@ top: 130px;
     line-height: 150%;
     /* or 54px */
 
-=======
-.tittle {
-    position: absolute;
-    width: 231px;
-    height: 66px;
-    left: calc(50% - 231px / 2 - 0.5px);
-    top: 36px;
-
-    font-family: Smartgen;
-    src: url(LobsterTwo-Bold.ttf);
-
-    font-style: normal;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 150%;
-    /* or 54px */
-
->>>>>>> 7f270e2d7e902ce1ca632c9a1409c0a15eea5974
     text-align: center;
 
     color: #204051;
@@ -74,11 +55,7 @@ top: 130px;
     position: absolute;
     width: 327px;
     height: 40px;
-<<<<<<< HEAD
     left: 35px;
-=======
-    left: 17px;
->>>>>>> 7f270e2d7e902ce1ca632c9a1409c0a15eea5974
     top: 207px;
 
     font-family: Sign up;
@@ -208,11 +185,7 @@ top: 130px;
     position: absolute;
     width: 200px;
     height: 100px;
-<<<<<<< HEAD
     left: 49px;
-=======
-    left: 41px;
->>>>>>> 7f270e2d7e902ce1ca632c9a1409c0a15eea5974
     top: 480px;
 
     font-family: Sign up;
@@ -227,7 +200,6 @@ top: 130px;
 
     color: #000b0f;
 }
-<<<<<<< HEAD
 .signup-satu {
     position: absolute;
     width: 85px;
@@ -240,20 +212,6 @@ top: 130px;
     font-style: normal;
     font-weight: 500;
     font-size: 11px;
-=======
-.signup {
-    position: absolute;
-    width: 85px;
-    height: 21px;
-    left: 230px;
-    top: 480px;
-
-    font-family: Sign up;
-    src: url(LobsterTwo-Bold.ttf);
-    font-style: normal;
-    font-weight: bold;
-    font-size: 12px;
->>>>>>> 7f270e2d7e902ce1ca632c9a1409c0a15eea5974
     line-height: 150%;
     /* or 18px */
 }
@@ -277,11 +235,7 @@ top: 130px;
     width: 205px;
     height: 21px;
     left: 78px;
-<<<<<<< HEAD
     top: 530px;
-=======
-    top: 534px;
->>>>>>> 7f270e2d7e902ce1ca632c9a1409c0a15eea5974
 
     font-family: Sign up;
     src: url(LobsterTwo-Bold.ttf);
@@ -332,7 +286,6 @@ top: 130px;
 
 .gambar-google {
     position: absolute;
-<<<<<<< HEAD
 width: 20px;
 height: 20px;
 left: 170px;
@@ -349,13 +302,6 @@ background: #C4C4C4;
 border: 0.5px solid rgba(53, 53, 53, 0.75);
 opacity: 0.6;
     filter: alpha(opacity=40);
-=======
-    width: 20px;
-    height: 20px;
-    left: 170px;
-    top: 570px;
-    font-size: 30px;
->>>>>>> 7f270e2d7e902ce1ca632c9a1409c0a15eea5974
 }
 
 .garis-2 {

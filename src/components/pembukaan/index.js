@@ -17,7 +17,7 @@ export default function pembukaan() {
             <br></br>
             <br></br>
             <br></br>
-            <img src={Smartgen}/>;
+            <img src={Smartgen}/>
             </center>
 </body>
     );
