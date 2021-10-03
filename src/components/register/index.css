@@ -9,12 +9,12 @@ body {
     font-family: sign up;
     src: url(./Lemonada-VariableFont_wght.ttf);
   }
-.tittle {
+.tittle-register {
     position: absolute;
 width: 231px;
 height: 66px;
-left: calc(50% - 231px/2 - 0.5px);
-top: 20px;
+left: 60px;
+top: 10px;
 font-family: Smartgen;
 src: url(./LobsterTwo-Bold.ttf);
 font-style: normal;
@@ -31,7 +31,7 @@ mix-blend-mode: normal;
 position: absolute;
 width: 327px;
 height: 21.92px;
-left: -39px;
+left: -20px;
 top: 244px;
 font-family: sign up;
 font-style: normal;
@@ -42,7 +42,7 @@ line-height: 40px;
 text-align: center;
 color: #000000;
 }
-.form-control {
+.form-control-name {
     
 position: absolute;
 width: 280px;
@@ -174,7 +174,7 @@ color: #000000;
     src: url(./Lemonada-VariableFont_wght.ttf);
     font-style: normal;
 }
-.logo {
+.logo-suzy {
 position: absolute;
 width: 316px;
 height: 162px;
@@ -190,3 +190,44 @@ height: 35px;
 left: 50px;
 top: 49px;
 } 
+
+.form-label-register {
+    position: absolute;
+width: 327px;
+height: 38px;
+left: 54px;
+top: 418px;
+
+font-family: sign up;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 40px;
+/* or 333% */
+
+
+color: #000000;
+}
+
+.form-control-register {
+
+
+position: absolute;
+width: 280px;
+height: 36.49px;
+left: 44px;
+top: 456px;
+font-size: 12px;
+font-family: sign up;
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 48px;
+}
+
+.back {
+    position: absolute;
+width: 32px;
+height: 32px;
+left: 38px;
+top: 55px;
+}

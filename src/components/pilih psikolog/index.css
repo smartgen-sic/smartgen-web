@@ -19,11 +19,10 @@ body {
        opacity: 1;
     }
   }
-  .home-psikolog {
+  .home-psikologg {
     position: absolute;
-left: 30px;
-right: 83.84%;
-top: 41px;
+left: 50px;
+top: 75px;
 bottom: 91.45%;
 color: #204051;
 }
@@ -32,7 +31,7 @@ color: #204051;
     position: absolute;
 width: 231px;
 height: 66px;
-left: 65px;
+left: 60px;
 top: 27px;
 
 font-family: Smartgen;
@@ -186,7 +185,7 @@ border: 2px solid #18191F;
     
     }
     
-.photo-psikolog-dua {
+.photo-psikolog-2 {
     position: absolute;
     width: 126px;
     height: 126px;
@@ -253,7 +252,7 @@ bottom: 17.97%;
 
 }
 
-.photo-psikolog-tiga {
+.photo-psikolog-3 {
 position: absolute;
 width: 126px;
 height: 126px;
@@ -321,11 +320,64 @@ bottom: 17.97%;
 
 }
 
-.photo-psikolog-empat {
+.photo-psikolog-4 {
 position: absolute;
 width: 110px;
 height: 110px;
 left: 210px;
 top: 15px;
 
+}
+
+.star {
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+left: 6.79%;
+top: 64.28%;
+bottom: 17.97%;
+font-weight: 800;
+font-size: 12px;
+
+}
+
+.star-2 {
+    flex-direction: row;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+left: 6.79%;
+top: 63.28%;
+bottom: 17.97%;
+font-weight: 800;
+font-size: 12px;
+}
+
+.star-3 {
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    
+    position: absolute;
+    left: 6.79%;
+    top: 63.28%;
+    bottom: 17.97%;
+    font-weight: 800;
+    font-size: 12px;
+}
+
+.star-4 {
+    flex-direction: row;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+left: 6.79%;
+top: 63.28%;
+bottom: 17.97%;
+font-weight: 800;
+font-size: 12px;
 }

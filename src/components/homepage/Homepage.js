@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import ellipse from './Ellipse.png';
+import profil from './Ellipse.png';
 import logo from './Logo.png';
 import agenda from './agenda.png';
 import keewa from './keewa.png';
@@ -15,10 +15,11 @@ import "./index.css";
 export default function Homepage() {
     return (
         <div>
-             <img class="profil" src={ellipse} />
-            <img class="style" src={logo} />
-           
-            <h1>SmartGen</h1>
+            <div className="pp-home">
+             <img src={profil} alt="pp"/>Hi, Wandi</div>
+             <img className="style" src={logo} />
+           <div className="title-home">
+            <h1>SmartGen</h1></div>
             <hr />
         <button type="button" class="button-home">
          <div class="rectangle">
@@ -28,23 +29,25 @@ export default function Homepage() {
     <div class="perasaan">
       <p>Bagaimana perasaan kamu hari ini?</p>
     </div>
-          <img class="kecewa" src={keewa}/>
-            <img class="kesal" src={kesal} />
-            <img class="marah" src={marah} />
-            <img class="sedih" src={sedih} />
-            <img class="senang" src={senang} />
+          <img className="kecewa" src={keewa} alt="kecewa"/>
+            <img className="kesal" src={kesal} alt="kesal"/>
+            <img className="marah" src={marah} alt="marah"/>
+            <img className="sedih" src={sedih} alt="sedih"/>
+            <img className="senang" src={senang} alt="senang" />
             <Link to="/psikologg">
-            <button type="button" class="button-konsul">
+            <button type="button" className="button-konsul">
              <div class="konsul">  <img src={konseling} /></div>
             </button></Link>
 
             <button type="button" class="button-agenda">
-             <div class="agenda"> 
+             <div className="agenda"> 
              <img src={agenda} />
              </div>
             </button>
             <Link to="https://kepri.bnn.go.id/hidup-sehat-dan-bahagia-tanpa-narkoba/">
-            <button type="button" class="artikell">Artikel</button> </Link>
+            <button type="button" className="artikel">You've must read this (artikel)</button> </Link>
+            <Link to="https://kepri.bnn.go.id/hidup-sehat-dan-bahagia-tanpa-narkoba/">
+            <button type="button" className="artikell">kenakalan remaja harus kita hindari (artikel)</button> </Link>
         </div>
     );
 }

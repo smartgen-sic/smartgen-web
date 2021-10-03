@@ -1,13 +1,15 @@
 import React from "react";
-import "./index.css";
+import "./Signup.css"
 import { Link } from "react-router-dom";
 
 export default function Signup() {
     return (
         <body>
             <center>
-        <h1 class="tittle">SmartGen</h1>
-        <h3 class="subtittle">Sign up your account</h3>
+          <div className="smartgen-signup">
+            <h1>SmartGen</h1></div>
+          <div className="subtittle-signup">
+        <h3>Sign up your account</h3></div>
         <input  class="field-signup" type="text" placeholder="Email address" aria-label=".form-control-sm example"></input> 
         <div class="signup">
           <i class="fas fa-user"></i>  </div>

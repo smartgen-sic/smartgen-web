@@ -9,10 +9,11 @@ import Sukses from "./components/sukses";
 import Psikolog from "./components/psikolog";
 import Psikologg from "./components/pilih psikolog";
 import Pembukaan from "./components/pembukaan";
-import Akun from "./components/akun";
 import Pembayaran from "./components/pembayaran";
 import Jurnal from "./components/jurnal";
 import Fitur from "./components/fitur";
+import Chat from "./components/chat";
+import Profil from "./components/profil";
 
 
 function App() {
@@ -43,17 +44,20 @@ function App() {
                 <Route exact path="/psikologg">
                     <Psikologg />
                 </Route>
-                <Route exact path="/akun">
-                    <Akun />
-                </Route>
                 <Route exact path="/pembayaran">
                     <Pembayaran />
                 </Route>
-                <Route exact path="/jurnal">
-                    <Jurnal />
-                </Route>
                 <Route exact path="/fitur">
                     <Fitur />
+                </Route>
+                <Route exact path="/chat">
+                    <Chat />
+                </Route>
+                <Route exact path="/profil">
+                    <Profil />
+                </Route>
+                <Route exact path="/jurnal">
+                    <Jurnal />
                 </Route>
             </Switch>
         </Router>

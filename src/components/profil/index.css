@@ -1,0 +1,120 @@
+body {
+    background-color: #ECFAF1;
+}
+
+  @font-face {
+    font-family: Lemonada;
+    src: url(Lemonada-VariableFont_wght.ttf);
+  }
+
+  .home {
+    position: absolute;
+left: 18%;
+right: 77.9%;
+top: 5.7%;
+bottom: 89.84%;
+
+color: #204051;
+
+  }
+.tittle {
+    position: absolute;
+    width: 165px;
+    height: 25px;
+    left: 97px;
+    top: 47px;
+
+font-family: Lemonada;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 16px;
+/* or 100% */
+
+text-align: center;
+
+/* Colors / Black 800 */
+
+color: #474A57;
+}
+
+.ava-pp {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 41px;
+    top: 112px;
+}
+
+.hr {
+  /* Line 86 */
+
+
+position: absolute;
+width: 360px;
+height: 0px;
+left: 0px;
+top: 5px;
+}
+
+.nama-profil {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    position: absolute;
+    width: 242px;
+    height: 28px;
+    left: 139px;
+    top: 111px;
+    font-family: Lemonada;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 28px;
+}
+
+.gender-profil {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    position: absolute;
+    width: 70px;
+height: 28px;
+left: 139px;
+top: 137px;
+    font-family: Lemonada;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 28px;
+}
+
+.umur-profil {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    position: absolute;
+    width: 242px;
+height: 28px;
+left: 139px;
+top: 164px;
+
+    font-family: Lemonada;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 28px;
+}
+
+.home-pp {
+    position: absolute;
+left: 14.72%;
+right: 77.9%;
+top: 60px;
+}

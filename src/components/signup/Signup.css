@@ -10,12 +10,12 @@ body {
     font-family: sign up;
     src: url(Lemonada-VariableFont_wght.ttf);
   }
-.tittle {
+.smartgen-signup{
     position: absolute;
 width: 231px;
 height: 66px;
-left: calc(50% - 231px/2 + 5.5px);
-top: 126px;
+left: 60px;
+top: 130px;
 
 font-family: SmartGen;
 src: url(LobsterTwo-Bold.ttf);
@@ -33,18 +33,18 @@ mix-blend-mode: normal;
 
 }
 
-.subtittle {
+.subtittle-signup {
     position: absolute;
-width: 327px;
-height: 40px;
-left: 17px;
-top: 207px;
+    width: 327px;
+    height: 40px;
+    left: 35px;
+    top: 207px;
 
 font-family: Sign up;
 src: url(Lemonada-VariableFont_wght.ttf);
 font-style: normal;
 font-weight: 600;
-font-size: 16px;
+font-size: 12px;
 line-height: 40px;
 /* identical to box height, or 250% */
 

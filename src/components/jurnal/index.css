@@ -2,27 +2,15 @@ body {
     background-color: #ECFAF1;
 }
 
-@font-face {
-    font-family: Smartgen;
-    src: url(./LobsterTwo-Bold.ttf);
-  }
-
-  @font-face {
+ 
+   @font-face {
     font-family: diary;
     src: url(./Lemonada-VariableFont_wght.ttf);
   }
 
-.home {
-    position: absolute;
-left: 10%;
-right: 82.75%;
-top: 6.85%;
-bottom: 90.07%;
 
-color: #204051;
-}
 
-.diary{
+.diary-jurnal{
     position: absolute;
 width: 220px;
 height: 33px;
@@ -32,7 +20,7 @@ top: 49px;
 font-family: diary;
 font-style: normal;
 font-weight: bold;
-font-size: 15px;
+font-size: 30px;
 line-height: 150%;
 /* or 24px */
 
@@ -43,11 +31,11 @@ color: #204051;
 mix-blend-mode: normal;
 }
 
-.jadwal{
+.jadwal-jurnal{
     position: absolute;
 width: 305px;
 height: 25px;
-left: 26px;
+left: 65px;
 top: 91px;
 
 font-family: diary;
@@ -66,7 +54,7 @@ color: #000000;
 .mb-3{
     position: absolute;
 left: 10%;
-right: 9.95%;
+right: 10%;
 top: 18.04%;
 bottom: 60.56%;
 
@@ -80,7 +68,11 @@ border-radius: 16px;
 
 .form-control{
     position: absolute;
-    width: 100%;
+    left: 2%;
+right: 9.95%;
+top: 18.04%;
+bottom: 10%;
+    width: 95%;
     background: #DFF0E5;
 }
 
@@ -104,14 +96,14 @@ color: #000000;
     position: absolute;
 width: 279px;
 height: 95px;
-left: 45px;
-top: 280px;
+left: 65px;
+top: 310px;
 }
 .cal{
     position: absolute;
 width: 146px;
 height: 22px;
-left: 106px;
+left: 70px;
 top: 407px;
 
 font-family: Lemonada;
@@ -131,7 +123,7 @@ color: #000000;
   position: absolute;
 width: 279px;
 height: 217px;
-left: 36px;
+left: 70px;
 top: 431px;
 
 }

@@ -1,5 +1,5 @@
 body {
-    background-color: #63c084;
+    background-color: #ECFAF1;
 }
 
 @font-face {
@@ -21,33 +21,34 @@ body {
   }
   .home-psikolog {
     position: absolute;
-left: 30px;
+left: 50px;
 right: 83.84%;
-top: 41px;
+top: 75px;
 bottom: 91.45%;
 color: #204051;
 }
 
-.tittle-psikolog {
+.title {
     position: absolute;
-width: 231px;
-height: 66px;
-left: 65px;
-top: 27px;
-
-font-family: Smartgen;
-src: url(LobsterTwo-Bold.ttf);
-font-style: normal;
-font-weight: bold;
-font-size: 36px;
-line-height: 150%;
-/* or 54px */
-
-text-align: center;
-
-color: #204051;
-
-mix-blend-mode: normal;
+    width: 231px;
+    height: 66px;
+    left: 60px;
+    top: 27px;
+    
+    font-family: Smartgen;
+    src: url(LobsterTwo-Bold.ttf);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 150%;
+    /* or 54px */
+    
+    text-align: center;
+    
+    color: #204051;
+    
+    mix-blend-mode: normal;
+    
 
 }
 
@@ -141,7 +142,7 @@ color: #18191F;
         
     }
 
-    .button-disable{
+    .button-disable-psikolog {
         position: absolute;
     width: 324px;
     height: 128px;
@@ -154,7 +155,7 @@ color: #18191F;
     box-sizing: border-box;
     border-radius: 16px;
     }
-    .nama-psikolog-dua {
+    .nama-psikologg {
         position: absolute;
         left: 22px;
         right: 141px;
@@ -168,7 +169,7 @@ color: #18191F;
         line-height: 1px;
         color: #838383;
     }
-    .spesialis-dua {
+    .spesialis-dua-p {
         position: absolute;
         left: 22px;
         right: 124px;
@@ -206,9 +207,11 @@ color: #18191F;
     height: 126px;
     left: 190px;
     top: 0px;
+    opacity: 0.4;
+    filter: alpha(opacity=40);
 
 }
-.button-disable-dua{
+.button-disable-dua-psikolog {
     position: absolute;
 width: 324px;
 height: 128px;
@@ -221,7 +224,7 @@ border: 2px solid #838383;
 box-sizing: border-box;
 border-radius: 16px;
 }
-.nama-psikolog-tiga {
+.nama-psikologgg {
     position: absolute;
     left: 22px;
     right: 141px;
@@ -235,7 +238,7 @@ border-radius: 16px;
     line-height: 1px;
     color: #838383;
 }
-.spesialis-tiga {
+.spesialis-tiga-p {
     position: absolute;
     left: 22px;
     right: 124px;
@@ -273,15 +276,17 @@ width: 126px;
 height: 126px;
 left: 190px;
 top: 0px;
+opacity: 0.4;
+    filter: alpha(opacity=40);
 
 }
 
-.button-disable-tiga{
+.button-disable-tiga-psikolog{
     position: absolute;
 width: 324px;
 height: 128px;
 left: 18px;
-top: 570px;
+top: 575px;
 
 /* Colors / Black */
 
@@ -289,7 +294,7 @@ border: 2px solid #838383;
 box-sizing: border-box;
 border-radius: 16px;
 }
-.nama-psikolog-empat {
+.nama-psikologggg {
     position: absolute;
     left: 10px;
     right: 115px;
@@ -303,7 +308,7 @@ border-radius: 16px;
     line-height: 1px;
     color: #838383;
 }
-.spesialis-empat {
+.spesialis-empat-p {
     position: absolute;
     left: 22px;
     right: 124px;
@@ -341,5 +346,74 @@ width: 110px;
 height: 110px;
 left: 210px;
 top: 15px;
+opacity: 0.4;
+    filter: alpha(opacity=40);
 
+}
+
+.star {
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+left: 6.79%;
+top: 64.28%;
+bottom: 17.97%;
+font-weight: 800;
+font-size: 12px;
+
+}
+
+.star-dua {
+    flex-direction: row;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+left: 6.79%;
+top: 63.28%;
+bottom: 17.97%;
+font-weight: 800;
+font-size: 12px;
+}
+
+.star-tiga {
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    
+    position: absolute;
+    left: 6.79%;
+    top: 63.28%;
+    bottom: 17.97%;
+    font-weight: 800;
+    font-size: 12px;
+}
+
+.star-empat {
+    flex-direction: row;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+left: 6.79%;
+top: 63.28%;
+bottom: 17.97%;
+font-weight: 800;
+font-size: 12px;
+}
+
+.css-star {
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+}
+.css-star-1 {
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+}
+
+.css-star-2 {
+    opacity: 0.4;
+    filter: alpha(opacity=40);
 }

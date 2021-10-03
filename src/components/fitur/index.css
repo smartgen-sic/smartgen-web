@@ -8,16 +8,14 @@ body {
   }
 
   @font-face {
-    font-family: sign up;
+    font-family: Lemonada;
     src: url(Lemonada-VariableFont_wght.ttf);
   }
 
-.home {
+.home-fitur {
     position: absolute;
-left: 9.19%;
-right: 83.84%;
-top: 5.55%;
-bottom: 91.45%;
+left: 50px;
+top: 68px;
 
 color: #204051;
 }
@@ -26,8 +24,8 @@ color: #204051;
     position: absolute;
 width: 231px;
 height: 66px;
-left: calc(50% - 231px/2 - 4px);
-top: 27px;
+left: 60px;
+top: 30px;
 
 font-family: Smartgen;
 src: url(LobsterTwo-Bold.ttf);
@@ -45,16 +43,15 @@ mix-blend-mode: normal;
 
 }
 
-.subtittle {
+.subtittle-fitur {
     
     position: absolute;
     width: 232.14px;
     height: 40.01px;
-    left: 92px;
+    left: 100px;
     top: 127.79px;
-    
-    font-family: There ;
-src: url(Lemonada-VariableFont_wght.ttf);
+
+    font-family: Lemonada;
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
@@ -69,11 +66,11 @@ src: url(Lemonada-VariableFont_wght.ttf);
 }
 
 .photo {
-    position: absolute;
-    width: 78.74px;
-    height: 85px;
-    left: 30px;
-    top: 100px;
+  position: absolute;
+width: 78.74px;
+height: 85px;
+left: 33px;
+top: 108px;
 }
 
 .bk{
@@ -97,7 +94,7 @@ border-radius: 16px;
 width: 95px;
 height: 15px;
 left: 90px;
-top: -15px;
+top: -17px;
 
 font-family: Lemonada;
 font-style: normal;
@@ -116,7 +113,7 @@ color: #204051;
 width: 160px;
 height: 30px;
 left: 68px;
-top: 25px;
+top: 22px;
 
 font-family: Lemonada;
 font-style: normal;
@@ -199,4 +196,21 @@ color: #204051;
     height: 35px;
     left: 15px;
     top: 18px;
+}
+
+.chat {
+    
+position: absolute;
+width: 35px;
+height: 35px;
+left: 10px;
+top: 0px;
+}
+
+.people {
+    position: absolute;
+width: 35px;
+height: 35px;
+left: 10px;
+top: 0px;
 }
