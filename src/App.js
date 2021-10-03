@@ -14,6 +14,7 @@ import Jurnal from "./components/jurnal";
 import Fitur from "./components/fitur";
 import Chat from "./components/chat";
 import Profil from "./components/profil";
+import Bot from "./components/bot";
 
 
 function App() {
@@ -58,6 +59,9 @@ function App() {
                 </Route>
                 <Route exact path="/jurnal">
                     <Jurnal />
+                </Route>
+                <Route exact path="/bot">
+                    <Bot />
                 </Route>
             </Switch>
         </Router>

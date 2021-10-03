@@ -9,9 +9,9 @@ import send from './send.png';
 export default function Chat() {
     return (
         <div>
-           
+           <Link to="/psikolog">
         <div class= "backk">
-            <img src = {back} alt="back"/></div>
+            <img src = {back} alt="back"/></div></Link>
         <div className="title-chat">
         <h1>SmartGen</h1></div>
         <div className="subtitle-chat">

@@ -10,9 +10,10 @@ import "./index.css";
 export default function Fitur() {
     return (
         <body>
+            <Link to="/homepage">
         <div className="home-fitur" >
-        <img src={Home} alt="home"/></div>
-    <h1 class="tittle">SmartGen</h1>
+        <img src={Home} alt="home"/></div></Link>
+    <h1 class="tittle-fitur">SmartGen</h1>
     <div className="subtittle-fitur">
         <p>There are several options that can help solve your problem.</p>
     </div>
@@ -24,17 +25,16 @@ export default function Fitur() {
         <h6 class="nama">Konseling</h6>
         <p class="teks">Consult your problem with the best psychologist</p>
         <div className="foto" >
-        <img src={Chat} className="chat" alt="chat"/></div>
+        <img src={Chat}  alt="chat"/></div>
       </div></Link>
-
+      <Link to="/jurnal">
       <div class="diary">
-
     <h6 class="nama-1">Diary Journal</h6>
     <p class="teks-1">Create your journal</p>
     
     <div class="photo3">
     <img src={People} className="people" alt="journal"/></div>
-</div>
+</div></Link>
 
 
         </body>

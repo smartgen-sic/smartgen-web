@@ -20,7 +20,7 @@ top: 68px;
 color: #204051;
 }
 
-.tittle {
+.tittle-fitur {
     position: absolute;
 width: 231px;
 height: 66px;
@@ -28,7 +28,6 @@ left: 60px;
 top: 30px;
 
 font-family: Smartgen;
-src: url(LobsterTwo-Bold.ttf);
 font-style: normal;
 font-weight: bold;
 font-size: 36px;
@@ -131,7 +130,7 @@ color: #204051;
     position: absolute;
 width: 35px;
 height: 35px;
-left: 15px;
+left: 20px;
 top: 20px;
 }
 

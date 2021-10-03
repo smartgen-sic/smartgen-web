@@ -38,12 +38,12 @@ export default function Homepage() {
             <button type="button" className="button-konsul">
              <div class="konsul">  <img src={konseling} /></div>
             </button></Link>
-
+            <Link to="/jurnal">
             <button type="button" class="button-agenda">
              <div className="agenda"> 
              <img src={agenda} />
              </div>
-            </button>
+            </button></Link>
             <Link to="https://kepri.bnn.go.id/hidup-sehat-dan-bahagia-tanpa-narkoba/">
             <button type="button" className="artikel">You've must read this (artikel)</button> </Link>
             <Link to="https://kepri.bnn.go.id/hidup-sehat-dan-bahagia-tanpa-narkoba/">

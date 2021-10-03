@@ -6,16 +6,16 @@ import "./index.css";
 
 export default function jurnal() {
     return (
+        <div>
         <body>
-            <center>
-    <div className="diary-jurnal">
+    <div className="diary-jurnal-1">
     <h1>Diary Journal</h1></div>
-    <p className="jadwal-jurnal"> Yuk jadwalin kegiatan positif kamu..</p>
+    <p className="jadwal-jurnal-1"> Yuk jadwalin kegiatan positif kamu..</p>
 
-    <div className="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">Catatan
-        <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea></label>
-      </div>
+    
+        <label for="exampleFormControlTextarea1" class="form-label-1">Catatan
+        <textarea className="form-control" placeholder="type you schedule here"></textarea></label>
+      
         <div className="ava">
         <img src={Avatar}alt="avatar"/>;
         </div>
@@ -24,9 +24,9 @@ export default function jurnal() {
 <img src={Kalender}alt="kalender"/>;
 </div>
 
-    </center>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
-</body>
+</body></div>
     );
 }
