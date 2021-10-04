@@ -11,7 +11,7 @@ body {
   src: url(Lemonada-VariableFont_wght.ttf);
 }
 
-.title-home {
+.home-title {
   position: absolute;
   width: 231px;
   height: 66px;
@@ -19,6 +19,7 @@ body {
   top: 5px;
   
   font-family: Smartgen;
+  src: url(LobsterTwo-Bold.ttf);
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -168,7 +169,7 @@ body {
   
   position: absolute;
   width: 301px;
-  height: 49px;
+  height: 89px;
   left: 30px;
   top: 507px;
   
@@ -303,4 +304,31 @@ width: 38px;
 height: 38px;
 left: 29px;
 top: 95px;
+  }
+
+  .baca-artikel {
+    position: static;
+width: 95px;
+height: 15px;
+left: 103px;
+top: 18px;
+
+font-family: Lemonada;
+font-style: normal;
+font-weight: 600;
+font-size: 10px;
+line-height: 150%;
+/* identical to box height, or 15px */
+
+text-align: center;
+
+color: #000000;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 0px;
   }

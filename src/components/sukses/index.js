@@ -1,13 +1,16 @@
-import React from "react";
+import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "./index.css";
+import swal from 'sweetalert';
 import hands from './hands.png';
+
+
 
 export default function Sukses() {
     return (
         <div>
              <body>
-    <h1 class="tittle">SmartGen</h1>
+    <h1  class="tittle">SmartGen</h1>
     <div class="succes-pay">
     <img src={hands} />
     </div>
