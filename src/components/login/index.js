@@ -47,10 +47,9 @@ export default function Login() {
                     integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
                     crossorigin="anonymous"
                 ></script>
-                <div className="garis-2">
-               <hr /></div>
                 <h3 class="google">Or login with</h3>
-               <div className="garis">
+               <div className="garis-login-satu"><hr /></div>
+               <div className="garis-login">
                <hr /></div>
                 <div class="gugel">
                     <img src={google} alt="google" className="gambar-google" />

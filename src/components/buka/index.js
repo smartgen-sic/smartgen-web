@@ -4,7 +4,7 @@ import Smartgen from './Smartgen.png';
 
 import "./index.css";
 
-export default function pembukaan() {
+export default function buka() {
     return (
         <body>
             <center>

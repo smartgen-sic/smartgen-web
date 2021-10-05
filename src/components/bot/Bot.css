@@ -7,14 +7,15 @@ body {
     src: url(Lemonada-VariableFont_wght.ttf);
 }
 
-h1{
+.curhat-judul {
     position: absolute;
 width: 231px;
 height: 29px;
 left: calc(50% - 231px/2 - 0.5px);
-top: 42px;
+top: 10px;
 
 font-family: Curhat Session;
+src: url(Lemonada-VariableFont_wght.ttf);
 font-style: normal;
 font-weight: bold;
 font-size: 16px;
@@ -29,12 +30,11 @@ mix-blend-mode: normal;
 
 }
 
-.home-psikolog {
+.back-bot {
     position: absolute;
-width: 28px;
-height: 28px;
-left: 32px;
-top: 40px;
+left: 10%;
+right: 9.95%;
+top: 35px;
 }
 
 .semangat {
@@ -181,13 +181,6 @@ border-radius: 12px;
     
 }
 
-hr{
-    position: absolute;
-    width: 100%;
-    top: 300px;
-    color: #000;
-    
-}
 
 
 

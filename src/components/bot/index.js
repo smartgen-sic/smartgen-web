@@ -11,21 +11,23 @@ import Perubahan from './Perubahan.png';
 import Semangat from './Semangat.png';
 import Solusi from './Solusi.png';
 import Sudah from './Sudah.png';
+import Back from './back.png';
 
 import "./Bot.css";
 
 export default function Bot() {
     return (
 <body>
-    <h1>Curhat Session</h1>
-    <div className="home-psikolog">
-        <i className="fas fa-chevron-left"></i></div>
-        <center>
+<Link to="/homepage">
+<div className="back-bot">
+    <img src={Back} alt="back" /></div></Link>
+
+    <div className="curhat-judul">
+    <h1>Curhat Session</h1></div>
             <div className="semangat">
             <img src={Semangat} alt="semangat"/></div>
         <div className="chat">
         <img src={Masalah} alt="masalah"/></div>
-    </center>
     <button type="button" className="button-belajar">
         <p className="belajar">Belajar</p>
        </button>

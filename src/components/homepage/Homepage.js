@@ -19,12 +19,13 @@ export default function Homepage() {
              <img className="style" src={logo} />
            <div className="home-title">
             <h1>SmartGen</h1></div>
-            <hr />
+            <div className="garis-home"><hr /></div>
+            <Link to="/bot">
         <button type="button" class="button-home">
          <div class="rectangle">
          <div class="kata-button"> Mulai Sesi Curhatmu Yuk!</div>
         </div>
-    </button>
+    </button></Link>
     <div class="perasaan">
       <p>Bagaimana perasaan kamu hari ini?</p>
     </div>
@@ -43,11 +44,15 @@ export default function Homepage() {
              <img src={agenda} />
              </div>
             </button></Link>
-            <Link to="https://kepri.bnn.go.id/hidup-sehat-dan-bahagia-tanpa-narkoba/">
-            <button type="button" className="artikel">
-              <div className="baca-artikel">
-            <p>Hidup sehat bahagia tanpa narkoba</p></div>
-            <p>Apakah teman-teman tahu apa itu narkoba? Narkoba adalah...</p>
+            <Link to="https://www.halodoc.com/artikel/curhat-bisa-membantu-menjaga-kesehatan-mental-ini-alasannya">
+            <button type="button" className="artikel-home">
+              <div className="judul-artikel">
+            <p>Curhat Bisa Membantu Kesehatan Mental</p></div>
+            <div className="isi-artikel">
+            <p>Menjaga kesehatan mental bisa dilakukan dengan beberapa cara, salah satunya......</p></div>
+            <div className="link-artikel">
+              <p>source : https://www.halodoc.com/artikel/</p>
+            </div>
             </button> </Link>
         </div>
     );

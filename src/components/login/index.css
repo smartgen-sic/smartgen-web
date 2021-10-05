@@ -14,24 +14,21 @@ body {
     position: absolute;
 width: 231px;
 height: 66px;
-left: 70px;
-top: 130px;
+left: 75px;
+top: 90px;
 
+font-family: Lobster Two;
+font-style: normal;
+font-weight: bold;
+font-size: 100px;
+line-height: 150%;
+/* or 72px */
 
-    font-family: Smartgen;
-    src: url(LobsterTwo-Bold.ttf);
+text-align: center;
 
-    font-style: normal;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 150%;
-    /* or 54px */
+color: #204051;
 
-    text-align: center;
-
-    color: #204051;
-
-    mix-blend-mode: normal;
+mix-blend-mode: normal;
 }
 
 .login-page {
@@ -220,16 +217,7 @@ top: 130px;
     background: #fff;
     padding: 0 10px;
 }
-.garis {
-    position: absolute;
-    width: 126px;
-    height: 0px;
-    left: 0px;
-    top: 543px;
 
-    background: #c4c4c4;
-    border: 1px solid rgba(0, 0, 0, 0.75);
-}
 .google {
     position: absolute;
     width: 205px;
@@ -304,15 +292,19 @@ opacity: 0.6;
     filter: alpha(opacity=40);
 }
 
-.garis-2 {
+.garis-login {
     position: absolute;
-    width: 126px;
-    height: 0px;
-    left: 234px;
-    top: 550px;
-    
-    background: #C4C4C4;
-    border: 1px solid rgba(53, 53, 53, 0.75);
-    opacity: 0.6;
-    filter: alpha(opacity=40);
+width: 126px;
+height: 1px;
+left: 234px;
+top: 543px;
+
+}
+
+.garis-login-satu {
+    position: absolute;
+width: 126px;
+height: 1px;
+left: 0px;
+top: 543px;
 }

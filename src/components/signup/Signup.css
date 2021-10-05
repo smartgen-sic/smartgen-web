@@ -1,5 +1,5 @@
 body {
-    background-color: #cae8d5;
+    background-color: #ECFAF1;
 }
 @font-face {
     font-family: Smartgen;
@@ -14,7 +14,7 @@ body {
     position: absolute;
 width: 231px;
 height: 66px;
-left: 60px;
+left: 75px;
 top: 130px;
 
 font-family: SmartGen;

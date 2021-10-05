@@ -1,6 +1,8 @@
 import React from "react";
 import Avatar from './Avatar.png';
 import Kalender from './Kalender.png';
+import Vector from './Vector.png'
+import { Link } from "react-router-dom";
 
 import "./index.css";
 
@@ -8,14 +10,16 @@ export default function jurnal() {
     return (
         <div>
         <body>
+        <Link to="/homepage">
+        <div className="home-jurnal">
+            <img src={Vector} alt="home" /></div></Link>
+    
     <div className="diary-jurnal-1">
     <h1>Diary Journal</h1></div>
     <p className="jadwal-jurnal-1"> Yuk jadwalin kegiatan positif kamu..</p>
 
+        <textarea className="form-control-jurnall" placeholder="type your schedule here"></textarea>
     
-        <label for="exampleFormControlTextarea1" class="form-label-1">Catatan
-        <textarea className="form-control" placeholder="type you schedule here"></textarea></label>
-      
         <div className="ava">
         <img src={Avatar}alt="avatar"/>;
         </div>
