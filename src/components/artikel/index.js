@@ -1,11 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import back from "./back.png";
 
 import "./index.css";
 
 export default function Artikel() {
     return (
         <div>
+            <Link to="/homepage">
+            <div className="back-artikel">
+                <img src={back} alt="back" />
+            </div></Link>
             <div className="title">
                 <h1>SmartGen</h1>
             </div>

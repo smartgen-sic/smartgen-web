@@ -31,7 +31,7 @@ body {
     width: 327px;
     height: 21.92px;
     left: -39px;
-    top: 200px;
+    top: 245px;
     font-family: sign up;
     font-style: normal;
     font-weight: 600;
@@ -66,8 +66,7 @@ padding: 0px;
 position: absolute;
 height: 36.49px;
 width: 276px;
-left: 44px;
-right: 36px;
+left: 55px;
 top: 286px;
 
 font-family: sign up;
@@ -112,7 +111,7 @@ border-radius: 48px;
     position: absolute;
     width: 109px;
     height: 29px;
-    left: 45px;
+    left: 55px;
     top: 378px;
     font-family: sign up;
     font-style: normal;
@@ -131,7 +130,7 @@ border-radius: 48px;
     position: absolute;
     width: 109px;
     height: 29px;
-    left: 164px;
+    left: 180px;
     top: 379px;
     font-family: sign up;
     font-style: normal;
@@ -146,24 +145,7 @@ border-radius: 48px;
     background-color: #cae8d5;
     color: #000000;
 }
-.button-male {
-    position: absolute;
-    width: 109px;
-    height: 29px;
-    left: 164px;
-    top: 379px;
-    font-family: sign up;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 150%;
-    border-radius: 12px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #cae8d5;
-    color: #000000;
-}
+
 .field-umur {
     position: absolute;
     width: 327px;
@@ -183,7 +165,7 @@ border-radius: 48px;
     position: absolute;
     width: 280px;
     height: 36.49px;
-    left: 44px;
+    left: 55px;
     top: 535px;
     background-color: #18191f;
     color: #cae8d5;
@@ -197,7 +179,7 @@ border-radius: 48px;
     position: absolute;
 width: 316px;
 height: 5px;
-left: 31px;
+left: 50px;
 top: 107px;
 
 }
@@ -210,24 +192,6 @@ top: 107px;
     top: 49px;
 }
 
-.form-label-name {
-    position: absolute;
-width: 327px;
-height: 21.92px;
-left: -39px;
-top: 244px;
-
-font-family: Lemonada;
-font-style: normal;
-font-weight: 600;
-font-size: 12px;
-line-height: 40px;
-/* or 333% */
-
-text-align: center;
-
-color: #000000;
-}
 
 .form-label-umur-regist {
     position: absolute;
@@ -256,8 +220,7 @@ color: #000000;
     position: absolute;
     height: 36.49px;
     width: 276px;
-    left: 44px;
-    right: 36px;
+    left: 55px;
     top: 456px;
     
     font-family: sign up;

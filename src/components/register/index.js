@@ -81,20 +81,8 @@ export default function Data() {
                     Male
                 </button>
             </div>
-            <label
-                for="exampleFormControlInput1"
-                className="form-label-register"
-            >
-                How old are you?
-            </label>
-            <input
-                type="email"
-                className="form-control-register"
-                id="exampleFormControlInput1"
-                placeholder="your age"
-                name="your direct name"
-                onChange={(event) => console.log("onchange berubah")}
-            />
+            
+            
 
             <Link to="/homepage">
                 <button type="button" class="button-next-awal">

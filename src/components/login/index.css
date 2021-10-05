@@ -14,7 +14,7 @@ body {
     position: absolute;
     width: 231px;
     height: 66px;
-    left: 75px;
+    left: 85px;
     top: 90px;
 
     font-family: Lobster Two;
@@ -52,7 +52,7 @@ body {
     position: absolute;
     width: 327px;
     height: 40px;
-    left: 35px;
+    left: 45px;
     top: 207px;
 
     font-family: Sign up;
@@ -69,44 +69,6 @@ body {
     color: #000000;
 }
 
-.button-sign-up {
-    position: absolute;
-    width: 272px;
-    height: 35px;
-    left: 55px;
-    top: 437px;
-    background-color: #18191f;
-    color: #cae8d5;
-    border-radius: 48px;
-    font-family: lemonada;
-    font-style: normal;
-}
-
-.field-signup {
-    position: absolute;
-    width: 276px;
-    height: 35px;
-    left: 42px;
-    top: 273px;
-
-    background: rgba(255, 255, 255, 0.73);
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    border-radius: 48px;
-
-    font-family: Sign up;
-    src: url(LobsterTwo-Bold.ttf);
-    font-style: normal;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 28px;
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-    margin: 0px 12px;
-    text-align: center;
-}
 
 .field-pw {
     position: absolute;
@@ -163,7 +125,7 @@ body {
     position: absolute;
     width: 175px;
     height: 21px;
-    left: 159px;
+    left: 180px;
     top: 361px;
 
     font-family: Sign up;
@@ -182,7 +144,7 @@ body {
     position: absolute;
     width: 200px;
     height: 100px;
-    left: 49px;
+    left: 65px;
     top: 480px;
 
     font-family: Sign up;
@@ -201,7 +163,7 @@ body {
     position: absolute;
     width: 85px;
     height: 21px;
-    left: 225px;
+    left: 240px;
     top: 479px;
 
     font-family: Sign up;
@@ -222,7 +184,7 @@ body {
     position: absolute;
     width: 205px;
     height: 21px;
-    left: 78px;
+    left: 105px;
     top: 530px;
 
     font-family: Sign up;
@@ -276,7 +238,7 @@ body {
     position: absolute;
     width: 20px;
     height: 20px;
-    left: 170px;
+    left: 200px;
     top: 570px;
 }
 
@@ -294,15 +256,15 @@ body {
 
 .garis-login {
     position: absolute;
-    width: 126px;
+    width: 155px;
     height: 1px;
-    left: 234px;
+    left: 260px;
     top: 543px;
 }
 
 .garis-login-satu {
     position: absolute;
-    width: 126px;
+    width: 155px;
     height: 1px;
     left: 0px;
     top: 543px;

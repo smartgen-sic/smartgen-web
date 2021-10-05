@@ -54,7 +54,7 @@ export default function Login() {
                 <div className="garis-login">
                     <hr />
                 </div>
-                <div class="gugel">
+                <div className="gugel">
                     <img src={google} alt="google" className="gambar-google" />
                 </div>
             </center>

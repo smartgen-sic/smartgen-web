@@ -11,8 +11,6 @@ import Psikologg from "./components/pilih psikolog";
 import Pembayaran from "./components/pembayaran";
 import Jurnal from "./components/jurnal";
 import Fitur from "./components/fitur";
-import Chat from "./components/chat";
-import Profil from "./components/profil";
 import Bot from "./components/bot";
 import Buka from "./components/buka";
 import Artikel from "./components/artikel";
@@ -42,7 +40,7 @@ function App() {
                 <Route exact path="/psikolog">
                     <Psikolog />
                 </Route>
-                <Route exact path="/psikologg">
+                < Route exact path="/psikologg">
                     <Psikologg />
                 </Route>
                 <Route exact path="/pembayaran">
@@ -50,12 +48,6 @@ function App() {
                 </Route>
                 <Route exact path="/fitur">
                     <Fitur />
-                </Route>
-                <Route exact path="/chat">
-                    <Chat />
-                </Route>
-                <Route exact path="/profil">
-                    <Profil />
                 </Route>
                 <Route exact path="/jurnal">
                     <Jurnal />

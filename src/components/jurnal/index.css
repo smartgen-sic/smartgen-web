@@ -38,9 +38,8 @@ body {
 
 .form-control-jurnall {
     position: absolute;
-    left: 22px;
+    left: 42px;
     width: 333px;
-    right: 9.95%;
     top: 18.04%;
     bottom: 60.56%;
     text-align: center;
@@ -75,33 +74,16 @@ body {
     position: absolute;
     width: 279px;
     height: 95px;
-    left: 50px;
+    left: 70px;
     top: 310px;
 }
-.cal {
-    position: absolute;
-    width: 146px;
-    height: 22px;
-    left: 70px;
-    top: 407px;
 
-    font-family: Lemonada;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 150%;
-    /* or 18px */
-
-    text-align: center;
-
-    color: #000000;
-}
 
 .kalender {
     position: absolute;
     width: 279px;
     height: 217px;
-    left: 50px;
+    left: 67px;
     top: 431px;
 }
 

@@ -12,7 +12,7 @@ export default function Data() {
     return (
 <body>
     <center>
-    <div className="back">
+    <div className="back-bayar">
         <img src={back} alt="back"></img> </div>
     <div class="Smartgen"></div>
     <div class="back-icon">

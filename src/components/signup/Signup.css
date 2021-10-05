@@ -14,7 +14,7 @@ body {
     position: absolute;
     width: 231px;
     height: 66px;
-    left: 75px;
+    left: 85px;
     top: 130px;
 
     font-family: SmartGen;
@@ -44,7 +44,7 @@ body {
     position: absolute;
     width: 327px;
     height: 40px;
-    left: 35px;
+    left: 45px;
     top: 207px;
 
     font-family: Sign up;
@@ -62,9 +62,9 @@ body {
 
 .button-sign-up {
     position: absolute;
-    width: 272px;
+    width: 276px;
     height: 35px;
-    left: 55px;
+    left: 65px;
     top: 437px;
     background-color: #18191f;
     color: #cae8d5;
@@ -79,7 +79,7 @@ body {
     position: absolute;
     width: 276px;
     height: 35px;
-    left: 42px;
+    left: 55px;
     top: 273px;
 
     background: rgba(255, 255, 255, 0.73);
@@ -105,7 +105,7 @@ body {
     position: absolute;
     width: 276px;
     height: 35px;
-    left: 42px;
+    left: 55px;
     top: 318px;
 
     background: rgba(255, 255, 255, 0.73);
@@ -131,7 +131,7 @@ body {
     position: absolute;
     width: 276px;
     height: 35px;
-    left: 42px;
+    left: 55px;
     top: 363px;
 
     background: rgba(255, 255, 255, 0.73);
@@ -181,18 +181,7 @@ body {
     height: 40px;
 }
 
-.password-icon {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px;
 
-    position: absolute;
-    width: 281px;
-    height: 28px;
-    left: 76px;
-    top: 322px;
-}
 
 .password-icon-again {
     display: flex;

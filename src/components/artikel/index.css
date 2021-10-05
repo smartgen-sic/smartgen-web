@@ -5,7 +5,7 @@
     position: absolute;
     width: 301px;
     height: 112px;
-    left: 37px;
+    left: 60px;
     margin-top: 120px;
 
     background: #e7fbee;
@@ -24,7 +24,7 @@
     position: absolute;
     width: 301px;
     height: 112px;
-    left: 37px;
+    left: 60px;
     top: 270px;
 
     background: #e7fbee;
@@ -43,7 +43,7 @@
     position: absolute;
     width: 301px;
     height: 112px;
-    left: 37px;
+    left: 60px;
     top: 410px;
 
     background: #e7fbee;
@@ -62,7 +62,7 @@
     position: absolute;
     width: 301px;
     height: 112px;
-    left: 37px;
+    left: 60px;
     top: 550px;
 
     background: #e7fbee;
@@ -75,12 +75,21 @@
 }
 
 .subtittle-psikolog {
-    top: 70px !important;
+    top: 60px !important;
 }
 .title {
+    left:75px;
     top: 5px;
 }
 
 .mb-50 {
     margin-top: 200px;
+}
+
+.back-artikel {
+    position: absolute;
+width: 32px;
+height: 32px;
+left: 55px;
+top: 52px;
 }

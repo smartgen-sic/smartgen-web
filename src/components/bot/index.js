@@ -13,6 +13,7 @@ import Solusi from './Solusi.png';
 import Sudah from './Sudah.png';
 import Back from './back.png';
 
+
 import "./Bot.css";
 
 export default function Bot() {
@@ -87,8 +88,6 @@ export default function Bot() {
           <p className="next">next</p>
          </button></Link>
           
-  
-
 
 
 

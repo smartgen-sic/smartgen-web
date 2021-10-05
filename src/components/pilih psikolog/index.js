@@ -14,7 +14,7 @@ export default function Register() {
              <Link to="/homepage">
      <div className="home-psikologg" >
         <img src={home} alt="home"/></div></Link>
-    <div className="tittle-psikolog">
+    <div className="tittle-psikolog1">
     <h1>SmartGen</h1></div>
     <h6 class="subtittle-psikolog">Pilih psikolog yang kamu mau yuk!</h6>
     <Link to="/pembayaran"> <div>
