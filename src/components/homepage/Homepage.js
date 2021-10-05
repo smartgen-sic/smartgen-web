@@ -9,8 +9,7 @@ import konseling from './konseling.png';
 import marah from './marah.png';
 import sedih from './sedih.png';
 import senang from './senang.png';
-
-import "./index.css";
+import "./Homepage.css";
 
 export default function Homepage() {
     return (
@@ -18,7 +17,7 @@ export default function Homepage() {
             <div className="pp-home">
              <img src={profil} alt="pp"/>Hi, Wandi</div>
              <img className="style" src={logo} />
-           <div className="title-home">
+           <div className="home-title">
             <h1>SmartGen</h1></div>
             <hr />
         <button type="button" class="button-home">
@@ -45,9 +44,11 @@ export default function Homepage() {
              </div>
             </button></Link>
             <Link to="https://kepri.bnn.go.id/hidup-sehat-dan-bahagia-tanpa-narkoba/">
-            <button type="button" className="artikel">You've must read this (artikel)</button> </Link>
-            <Link to="https://kepri.bnn.go.id/hidup-sehat-dan-bahagia-tanpa-narkoba/">
-            <button type="button" className="artikell">kenakalan remaja harus kita hindari (artikel)</button> </Link>
+            <button type="button" className="artikel">
+              <div className="baca-artikel">
+            <p>Hidup sehat bahagia tanpa narkoba</p></div>
+            <p>Apakah teman-teman tahu apa itu narkoba? Narkoba adalah...</p>
+            </button> </Link>
         </div>
     );
 }

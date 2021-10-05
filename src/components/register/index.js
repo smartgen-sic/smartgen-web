@@ -20,12 +20,12 @@ export default function Data() {
                 <img src={logo} alt="Logo" />
             </div>
 
-            <label for="exampleFormControlInput1" class="form-label-name">
+            <label for="exampleFormControlInput1" class="form-label">
                 What's your name?
             </label>
             <input
                 type="email"
-                class=""
+                class="form-control-name"
                 id="exampleFormControlInput1"
                 placeholder="your direct name"
                 name="your direct name"
