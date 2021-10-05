@@ -15,13 +15,12 @@ import Chat from "./components/chat";
 import Profil from "./components/profil";
 import Bot from "./components/bot";
 import Buka from "./components/buka";
-
+import Artikel from "./components/artikel";
 
 function App() {
     return (
         <Router>
             <Switch>
-    
                 <Route exact path="/buka">
                     <Buka />
                 </Route>
@@ -64,7 +63,9 @@ function App() {
                 <Route exact path="/bot">
                     <Bot />
                 </Route>
-            
+                <Route exact path="/artikel">
+                    <Artikel />
+                </Route>
             </Switch>
         </Router>
     );

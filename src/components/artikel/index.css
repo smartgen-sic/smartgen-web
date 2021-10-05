@@ -1,0 +1,86 @@
+.card-artikel {
+    align-items: center;
+    padding: 18px 0px;
+
+    position: absolute;
+    width: 301px;
+    height: 112px;
+    left: 37px;
+    margin-top: 120px;
+
+    background: #e7fbee;
+    border: 2px solid #3e5962;
+    box-sizing: border-box;
+    /* Shadow / 400 */
+
+    box-shadow: 0px 4px 0px #18191f;
+    border-radius: 16px;
+}
+
+.card-artikel2 {
+    align-items: center;
+    padding: 18px 0px;
+
+    position: absolute;
+    width: 301px;
+    height: 112px;
+    left: 37px;
+    top: 270px;
+
+    background: #e7fbee;
+    border: 2px solid #3e5962;
+    box-sizing: border-box;
+    /* Shadow / 400 */
+
+    box-shadow: 0px 4px 0px #18191f;
+    border-radius: 16px;
+}
+
+.card-artikel3 {
+    align-items: center;
+    padding: 18px 0px;
+
+    position: absolute;
+    width: 301px;
+    height: 112px;
+    left: 37px;
+    top: 410px;
+
+    background: #e7fbee;
+    border: 2px solid #3e5962;
+    box-sizing: border-box;
+    /* Shadow / 400 */
+
+    box-shadow: 0px 4px 0px #18191f;
+    border-radius: 16px;
+}
+
+.card-artikel4 {
+    align-items: center;
+    padding: 18px 0px;
+
+    position: absolute;
+    width: 301px;
+    height: 112px;
+    left: 37px;
+    top: 550px;
+
+    background: #e7fbee;
+    border: 2px solid #3e5962;
+    box-sizing: border-box;
+    /* Shadow / 400 */
+
+    box-shadow: 0px 4px 0px #18191f;
+    border-radius: 16px;
+}
+
+.subtittle-psikolog {
+    top: 70px !important;
+}
+.title {
+    top: 5px;
+}
+
+.mb-50 {
+    margin-top: 200px;
+}
