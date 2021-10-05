@@ -7,20 +7,23 @@ import Signup from "./components/signup";
 import Sukses from "./components/sukses";
 import Psikolog from "./components/psikolog";
 import Psikologg from "./components/pilih psikolog";
-import Pembukaan from "./components/pembukaan";
+
 import Pembayaran from "./components/pembayaran";
 import Jurnal from "./components/jurnal";
 import Fitur from "./components/fitur";
 import Chat from "./components/chat";
 import Profil from "./components/profil";
 import Bot from "./components/bot";
+import Buka from "./components/buka";
+
 
 function App() {
     return (
         <Router>
             <Switch>
-                <Route exact path="/">
-                    <Pembukaan />
+    
+                <Route exact path="/buka">
+                    <Buka />
                 </Route>
                 <Route exact path="/homepage">
                     <Homepage />
@@ -61,6 +64,7 @@ function App() {
                 <Route exact path="/bot">
                     <Bot />
                 </Route>
+            
             </Switch>
         </Router>
     );

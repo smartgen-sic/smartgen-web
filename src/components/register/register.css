@@ -2,20 +2,20 @@ body {
     background-color: #ecfaf1;
 }
 @font-face {
-    font-family: Smartgen;
+    font-family: Homepage;
     src: url(./LobsterTwo-Bold.ttf);
 }
 @font-face {
     font-family: sign up;
     src: url(./Lemonada-VariableFont_wght.ttf);
 }
-.tittle {
+.regist-title {
     position: absolute;
     width: 231px;
     height: 66px;
     left: calc(50% - 231px / 2 - 0.5px);
-    top: 20px;
-    font-family: Smartgen;
+    top: 10px;
+    font-family: Homepage;
     src: url(./LobsterTwo-Bold.ttf);
     font-style: normal;
     font-weight: bold;
@@ -57,18 +57,26 @@ body {
     text-align: center;
     color: #000000;
 }
-.form-control-register {
-    position: absolute;
-    width: 280px;
-    height: 36.49px;
-    left: 44px;
-    top: 286px;
-    font-size: 12px;
-    font-family: sign up;
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    border-radius: 48px;
+.form-control-name-regist {
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+height: 36.49px;
+width: 276px;
+left: 44px;
+right: 36px;
+top: 286px;
+
+font-family: sign up;
+background: rgba(255, 255, 255, 0.73);
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 48px;
 }
+
 .text-field-umur {
     position: absolute;
     width: 280px;
@@ -185,12 +193,13 @@ body {
     src: url(./Lemonada-VariableFont_wght.ttf);
     font-style: normal;
 }
-.logo-register {
+.logo-suzy {
     position: absolute;
-    width: 316px;
-    height: 162px;
-    left: 31px;
-    top: 107px;
+width: 316px;
+height: 5px;
+left: 31px;
+top: 107px;
+
 }
 
 .arrow {
@@ -199,4 +208,70 @@ body {
     height: 35px;
     left: 50px;
     top: 49px;
+}
+
+.form-label-name {
+    position: absolute;
+width: 327px;
+height: 21.92px;
+left: -39px;
+top: 244px;
+
+font-family: Lemonada;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 40px;
+/* or 333% */
+
+text-align: center;
+
+color: #000000;
+}
+
+.form-label-umur-regist {
+    position: absolute;
+width: 327px;
+height: 38px;
+left: 54px;
+top: 418px;
+
+font-family: Lemonada;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 40px;
+/* or 333% */
+
+
+color: #000000;
+}
+
+.form-control-age-regist {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    
+    position: absolute;
+    height: 36.49px;
+    width: 276px;
+    left: 44px;
+    right: 36px;
+    top: 456px;
+    
+    font-family: sign up;
+    background: rgba(255, 255, 255, 0.73);
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 48px;
+}
+
+.back-regist {
+    position: absolute;
+width: 32px;
+height: 32px;
+left: 50px;
+top: 52px;
+
 }

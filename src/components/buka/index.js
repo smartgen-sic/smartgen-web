@@ -5,11 +5,7 @@ import Smartgen from "./Smartgen.png";
 
 import "./index.css";
 
-export default function Pembukaan() {
-    setTimeout(() => {
-        <Redirect to="/login" />;
-    }, 100);
-
+export default function buka() {
     return (
         <body>
             <center>

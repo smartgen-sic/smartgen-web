@@ -89,15 +89,14 @@ body {
   color: #000000;
     }
   
-    hr {
+  .garis-home {
       position: absolute;
       width: 500px;
-      height: 0px;
+      height: 1px;
       left: 0px;
       top: 88px;
       
-      border: 0.5px solid rgba(0, 0, 0, 0.75);
-      transform: rotate(0.16deg); 
+
     }
     .perasaan {
       position: absolute;
@@ -161,63 +160,81 @@ body {
   top: 10px;
     }
 
-    .artikel {
-      display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 18px 0px;
-  
+.artikel-home {
+  display: flex;
+flex-direction: column;
+align-items: center;
+padding: 18px 0px;
+
+position: absolute;
+width: 301px;
+height: 112px;
+left: 30px;
+top: 507px;
+
+background: #E7FBEE;
+border: 2px solid #3E5962;
+box-sizing: border-box;
+/* Shadow / 400 */
+
+box-shadow: 0px 4px 0px #18191F;
+border-radius: 16px;
+}
+
+.judul-artikel {
   position: absolute;
-  width: 301px;
-  height: 89px;
-  left: 30px;
-  top: 507px;
-  
-  background: #E7FBEE;
-  border: 2px solid #3E5962;
-  box-sizing: border-box;
-  /* Shadow / 400 */
-  
-  box-shadow: 0px 4px 0px #18191F;
-  border-radius: 16px;
-  font-family: sign up;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 10px;
-  line-height: 150%;
-  /* identical to box height, or 15px */
-  
-  text-align: center;
-    }
-  
-    .artikell {
-      display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 18px 0px;
-  
+width: 225px;
+height: 38px;
+left: 23px;
+top: 0px;
+
+text-align: left;
+font-family: Lemonada;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 150%;
+/* or 18px */
+
+
+color: #000000;
+}
+.isi-artikel {
   position: absolute;
-  width: 301px;
-  height: 49px;
-  left: 28px;
-  top: 567px;
-  
-  background: #E7FBEE;
-  border: 2px solid #3E5962;
-  box-sizing: border-box;
-  /* Shadow / 400 */
-  
-  box-shadow: 0px 4px 0px #18191F;
-  border-radius: 16px;
-  font-family: sign up;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 10px;
-  line-height: 150%;
-  /* identical to box height, or 15px */
-  
-  text-align: center;
-    }
+width: 267px;
+height: 31px;
+left: 23px;
+top: 42px;
+text-align: left;
+font-family: Lemonada;
+font-style: normal;
+font-weight: 300;
+font-size: 10px;
+line-height: 150%;
+/* or 15px */
+
+
+color: #000000;
+}
+
+.link-artikel {
+  position: absolute;
+width: 267px;
+height: 15px;
+left: 23px;
+top: 80px;
+
+text-align: left;
+font-family: Lemonada;
+font-style: normal;
+font-weight: 300;
+font-size: 6px;
+line-height: 150%;
+/* or 7px */
+
+
+color: #000000;
+}
 
   .logo {
     position: absolute;

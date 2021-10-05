@@ -8,13 +8,19 @@ body {
     src: url(./Lemonada-VariableFont_wght.ttf);
   }
 
-
+.home-jurnal {
+    position: absolute;
+left: 45px;
+right: 82.75%;
+top: 55px;
+bottom: 90.07%;
+}
 
 .diary-jurnal-1 {
     position: absolute;
     width: 229px;
     height: 33px;
-    left: calc(50% - 229px/2 + 9.5px);
+    left: 90px;
     top: 20px;
     
     font-family: diary;
@@ -30,6 +36,25 @@ body {
     
     mix-blend-mode: normal;
 }
+
+.form-control-jurnall {
+    position: absolute;
+    left: 10%;
+    width: 333px;
+    right: 9.95%;
+    top: 18.04%;
+    bottom: 60.56%;
+    text-align: center;
+    background: #D2FFE3;
+    /* Colors / Black */
+    
+    
+    border: 2px solid #18191F;
+    box-sizing: border-box;
+    border-radius: 16px;
+    
+}
+
 
 .jadwal-jurnal-1{
     position: absolute;
@@ -52,38 +77,6 @@ color: #000000;
 }
 
 
-.form-control{
-    position: absolute;
-    left: 2%;
-right: 9.95%;
-top: 18.04%;
-bottom: 10%;
-    width: 95%;
-    background: #DFF0E5;
-}
-
-.form-label-1{
-
-    position: absolute;
-    left: 10%;
-    right: 9.95%;
-    top: 18.04%;
-    bottom: 60.56%;
-    
-    background: #DFF0E5;
-    /* Colors / Black */
-    font-family: Lemonada;
-font-style: normal;
-font-weight: bold;
-font-size: 12px;
-line-height: 150%;
-/* or 18px */
-
-text-align: center;
-    border: 2px solid #18191F;
-    box-sizing: border-box;
-    border-radius: 16px;
-}
 
 .ava{
     position: absolute;

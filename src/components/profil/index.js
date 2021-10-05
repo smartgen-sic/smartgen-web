@@ -3,13 +3,13 @@ import profil from "./Ellipse.png";
 import homee from "./Vector.png";
 import "./index.css";
 
-export default function akun() {
+export default function Profil() {
     return (
     <body>
-       <div className="home-pp" >
+       <div className="home-profil" >
         <img src={homee} alt="home"/></div>
         <h4 class="tittle">My Account</h4>
-        <div className="hr">
+        <div className="garis-profil">
             <hr /> </div>
         <div class="ava-pp">
          <img src={profil}></img></div>
