@@ -17,22 +17,22 @@ export default function Fitur() {
     <div className="subtittle-fitur">
         <p>There are several options that can help solve your problem.</p>
     </div>
-    <div className="photo" >
+    <div className="photo-fitur" >
     <img src={Animasi}/></div>
 
     <Link to="/psikologg">
     <div class="bk">
-        <h6 class="nama">Konseling</h6>
-        <p class="teks">Consult your problem with the best psychologist</p>
-        <div className="foto" >
+        <h6 class="nama-konsel">Konseling</h6>
+        <p class="teks-konsel">Consult your problem with the best psychologist</p>
+        <div className="foto-konsel" >
         <img src={Chat}  alt="chat"/></div>
       </div></Link>
       <Link to="/jurnal">
       <div class="diary">
-    <h6 class="nama-1">Diary Journal</h6>
-    <p class="teks-1">Create your journal</p>
+    <h6 class="nama-1-jurnal">Diary Journal</h6>
+    <p class="teks-1-jurnal">Create your journal !</p>
     
-    <div class="photo3">
+    <div class="photo3-jurnal">
     <img src={People} className="people" alt="journal"/></div>
 </div></Link>
 

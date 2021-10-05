@@ -63,6 +63,8 @@ flex-direction: row;
 align-items: center;
 padding: 0px;
 
+font-size: 11px;
+text-align:center;
 position: absolute;
 height: 36.49px;
 width: 276px;
@@ -217,6 +219,8 @@ color: #000000;
     align-items: center;
     padding: 0px;
     
+    font-size: 11px;
+    text-align: center;
     position: absolute;
     height: 36.49px;
     width: 276px;

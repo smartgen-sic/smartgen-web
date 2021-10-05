@@ -12,7 +12,7 @@ export default function Sukses() {
                     <img src={hands} />
                 </div>
                 <p class="text-sukses">Payment Success</p>
-                <Link to="/psikolog">
+                <Link to="/psikologg">
                     <button type="button" class="button-start">
                         Start
                     </button>

@@ -50,7 +50,7 @@ body {
     width: 167.48px;
     height: 41px;
     left: 65px;
-    top: 280px;
+    top: 250px;
     
     font-family: sign up;
     font-style: normal;
@@ -67,7 +67,7 @@ body {
     width: 80.89px;
     height: 18px;
     left: 270px;
-    top: 314px;
+    top: 287px;
     
     font-family: sign up;
     font-size: 12px;
@@ -82,8 +82,8 @@ body {
 position: absolute;
 width: 237px;
 height: 20px;
-left: 87px;
-top: 364px;
+left: 150px;
+top: 365px;
 
 font-family: sign up;
 font-size: 12px;

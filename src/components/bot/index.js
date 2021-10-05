@@ -1,24 +1,19 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Baiklah from './Baiklah.png';
-import Efektif from './Efektif.png';
-import Jawaban from './Jawaban.png';
-import Masalah from './Masalah.png';
-import Memaparkan from './Memaparkan.png';
-import Misal from './Misal.png';
-import Paparkan from './Paparkan.png';
-import Perubahan from './Perubahan.png';
-import Semangat from './Semangat.png';
-import Solusi from './Solusi.png';
-import Sudah from './Sudah.png';
 import Back from './back.png';
-
+import satu from './satuu.png';
+import dua from './duaa.png';
+import tiga from './tiga.png';
+import empat from './empat.png';
+import lima from './lima.png';
+import enam from './enam.png';
 
 import "./Bot.css";
 
 export default function Bot() {
     return (
 <body>
+  
 <Link to="/homepage">
 <div className="back-bot">
     <img src={Back} alt="back" /></div></Link>
@@ -26,9 +21,9 @@ export default function Bot() {
     <div className="curhat-judul">
     <h1>Curhat Session</h1></div>
             <div className="semangat">
-            <img src={Semangat} alt="semangat"/></div>
+            <img src={satu} alt="semangat"/></div>
         <div className="chat">
-        <img src={Masalah} alt="masalah"/></div>
+        <img src={dua} alt="masalah"/></div>
     <button type="button" className="button-belajar">
         <p className="belajar">Belajar</p>
        </button>
@@ -42,49 +37,54 @@ export default function Bot() {
         <p className="kebiasaan">kebiasaan</p>
        </button>
        
-    <div className="respon">
-    <img src={Misal} alt="misal"/></div>
-     
      <div className="wandi">
-     <img src={Efektif} alt="efektif"/></div>
+     <img src={tiga} alt="efektif"/></div>
     <button type="button" className="button-sudah">
       <p className="sudah">sudah</p>
      </button>
     <button type="button" className="button-belum">
       <p className="belum">belum</p>
      </button>
-    <div className="user">
-    <img src={Jawaban} alt="Jawaban"/></div>
+
     <div className="bot">
-    <img src={Paparkan} alt="paparkan"/></div>
+    <img src={empat} alt="paparkan"/></div>
+
     <div className="memaparkan">
-    <img src={Memaparkan} alt="memaparkan"/></div>
-    <div className="bott">
-    <img src={Solusi} alt="solusi"/></div>
+                <input
+                    type="email"
+                    class="form-control-paparan"
+                    id="exampleFormControlInput1"
+                    placeholder="paparkan cara belajarmu"
+                    name="your direct name"
+                    onChange={(event) => console.log("onchange berubah")}
+                />{" "}
+            </div>
+
+    
+    <div className="pemaparan">
+    <p>cara belajarmu sudah keren nihh. Lebih semangat lagi yah sahabat Suzy!</p></div>
+   <div className="cukup">
+       <div className="bantu-lagi">
+       <p>apakah ada yang perlu Suzy bantu lagi ?</p>
+       </div>
     <button type="button" className="button-cukup">
-          <p className="cukup">cukup</p>
+          <p className="cukup-dalem">cukup</p>
          </button>
     <button type="button" className="button-curhat">
           <p className="curhat">curhat lagi</p>
          </button>
-         <div className="batas">
-          </div>
-    <div className="pilihan">
-    <img src={Sudah} alt="sudah"/></div>
-        <div className="batas">
          </div>
+        
       <div className="ending">
-      <img src={Baiklah} alt="baiklah"/></div>
+      <img src={lima} alt="baiklah"/></div>
     <button type="button" className="button-mulai">
           <p className="mulai kembali sesi curhatmu"> mulai kembali sesi</p>
          </button>
-         <div className="batas">
-          </div>
          <div className="perubahan">
-         <img src={Perubahan} alt="perubahan"/>
+         <img src={enam} alt="perubahan"/>
          </div>
          <Link to="/fitur">
-     <button type="button" className="button-next">
+     <button type="button" className="button-next-bot">
           <p className="next">next</p>
          </button></Link>
           

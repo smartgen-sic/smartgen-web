@@ -206,7 +206,7 @@ border-radius: 12px;
 width: 270px;
 height: 38px;
 left: 49px;
-top: 400px;
+top: 320px;
 }
 
 .button-sudah {
@@ -214,7 +214,7 @@ top: 400px;
 width: 89px;
 height: 28.01px;
 left: 45px;
-top: 445px;
+top: 370px;
 background: #3B6978;
 border-radius: 12px;
 }
@@ -245,7 +245,7 @@ color: #FFFFFF;
 width: 89px;
 height: 28.01px;
 left: 145px;
-top: 445px;
+top: 370px;
 background: #3B6978;
 border-radius: 12px;
 }
@@ -285,17 +285,31 @@ top: 490px;
 width: 272px;
 height: 42px;
 left: 49px;
-top: 542px;
+top: 430px;
 
 }
 
-.memaparkan {
+.form-control-paparan {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    
+    text-align: center;
+    font-size: 11px;
     position: absolute;
-width: 261px;
-height: 36px;
-left: 17px;
-top: 617px;
+    height: 52px;
+    width: 235px;
+    left: 45px;
+    top: 490px;
+    
+    font-family: Curhat Session;
+    background: rgba(255, 255, 255, 0.73);
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 12px;
 }
+
 
 .bott {
     position: absolute;
@@ -306,12 +320,31 @@ top: 680px;
 
 }
 
+.bantu-lagi {
+    position: absolute;
+width: 229.87px;
+height: 38px;
+left: 40px;
+top: 600px;
+
+text-align: left;
+font-family: Lemonada;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 150%;
+/* or 18px */
+
+
+color: rgba(0, 0, 0, 0.9);
+}
+
 .button-cukup{
         position: absolute;
         width: 114px;
         height: 27.89px;
-        left: 60px;
-        top: 785.54px;
+        left: 35px;
+        top: 670px;
         border-radius: 12px;
         
     background: #3B6978;
@@ -322,7 +355,7 @@ top: 680px;
     width: 95px;
     height: 16px;
     left: 9px;
-    top: -6px;
+    top: 10px;
     
     font-family: Lemonada;
     font-style: normal;
@@ -343,8 +376,8 @@ top: 680px;
     position: absolute;
         width: 114px;
         height: 27.89px;
-        left: 180px;
-        top: 785.54px;
+        left: 160px;
+        top: 670px;
         border-radius: 12px;
         
     background: #3B6978;
@@ -355,7 +388,7 @@ top: 680px;
     width: 95px;
     height: 16px;
     left: 9px;
-    top: -6px;
+    top: -8px;
     
     font-family: Lemonada;
     font-style: normal;
@@ -385,7 +418,7 @@ top: 837px;
 width: 273px;
 height: 92px;
 left: 47px;
-top: 904px;
+top: 730px;
 
 }
 .button-mulai{
@@ -393,7 +426,7 @@ top: 904px;
         width: 300px;
         height: 27.89px;
         left: 38px;
-        top: 1010px;
+        top: 840px;
         border-radius: 12px;
         
     background: #3B6978;
@@ -424,16 +457,35 @@ top: 904px;
 width: 286px;
 height: 40px;
 left: 37px;
-top: 1080px;
+top: 880px;
 
 }
 
-.button-next {
+.pemaparan{
+    position: absolute;
+    width: 232.95px;
+    height: 25px;
+    left: 49px;
+    top: 540px;
+    
+    font-family: Lemonada;
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 12px;
+    line-height: 150%;
+    /* or 18px */
+    
+    
+    color: rgba(0, 0, 0, 0.9);
+    
+}
+
+.button-next-bot {
     position: absolute;
     width: 114px;
     height: 27.89px;
-    left: 222px;
-    top: 1150px;
+    left: 220px;
+    top: 940px;
     border-radius: 12px;
     
 background: #2a3133;
@@ -459,4 +511,25 @@ text-align: center;
 
 color: #FFFFFF;
 
+}
+
+.cukup-dalem {
+    position: absolute;
+    width: 95px;
+    height: 16px;
+    left: 9px;
+    top: -8px;
+    
+    font-family: Lemonada;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height, or 133% */
+    
+    text-align: center;
+    
+    /* Colors / White */
+    
+    color: #FFFFFF;
 }

@@ -5,7 +5,6 @@ import Homepage from "./components/homepage/Homepage";
 import Register from "./components/register";
 import Signup from "./components/signup";
 import Sukses from "./components/sukses";
-import Psikolog from "./components/psikolog";
 import Psikologg from "./components/pilih psikolog";
 
 import Pembayaran from "./components/pembayaran";
@@ -19,7 +18,7 @@ function App() {
     return (
         <Router>
             <Switch>
-                <Route exact path="/buka">
+                <Route exact path="/">
                     <Buka />
                 </Route>
                 <Route exact path="/homepage">
@@ -36,9 +35,6 @@ function App() {
                 </Route>
                 <Route exact path="/sukses">
                     <Sukses />
-                </Route>
-                <Route exact path="/psikolog">
-                    <Psikolog />
                 </Route>
                 < Route exact path="/psikologg">
                     <Psikologg />
