@@ -26,6 +26,22 @@ body {
     color: #204051;
     mix-blend-mode: normal;
 }
+.form-label-name {
+    position: absolute;
+    width: 327px;
+    height: 21.92px;
+    left: -39px;
+    top: 200px;
+    font-family: sign up;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 40px;
+    /* or 333% */
+    text-align: center;
+    color: #000000;
+}
+
 .form-label-register {
     position: absolute;
     width: 327px;
