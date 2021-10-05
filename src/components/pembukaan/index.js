@@ -13,7 +13,6 @@ export default function Pembukaan() {
     return (
         <body>
             <center>
-<<<<<<< HEAD
                 <br></br>
                 <br></br>
                 <br></br>
@@ -24,18 +23,6 @@ export default function Pembukaan() {
                 <br></br>
                 <br></br>
                 <img src={Smartgen} />
-=======
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <img src={Smartgen}/>
->>>>>>> e697d1446ef90a9d8d50fb2f415aca9be01d223a
             </center>
         </body>
     );
