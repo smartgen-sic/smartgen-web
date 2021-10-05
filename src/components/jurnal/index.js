@@ -20,7 +20,6 @@ export default function jurnal() {
                     <h1>Diary Journal</h1>
                 </div>
                 <p className="jadwal-jurnal-1">
-                    {" "}
                     Yuk jadwalin kegiatan positif kamu..
                 </p>
 
@@ -30,19 +29,19 @@ export default function jurnal() {
                 ></textarea>
 
                 <div className="ava">
-                    <img src={Avatar} alt="avatar" />;
+                    <img src={Avatar} alt="avatar" />
                 </div>
 
                 <div className="kalender">
-                    <img src={Kalender} alt="kalender" />;
+                    <img src={Kalender} alt="kalender" />
                 </div>
 
                 <div className="ava">
-                    <img src={Avatar} alt="avatar" />;
+                    <img src={Avatar} alt="avatar" />
                 </div>
 
                 <div className="kalender">
-                    <img src={Kalender} alt="kalender" />;
+                    <img src={Kalender} alt="kalender" />
                 </div>
 
                 <script

@@ -1,19 +1,18 @@
 body {
-    background-color: #ECFAF1;
+    background-color: #ecfaf1;
 }
 
- 
-   @font-face {
+@font-face {
     font-family: diary;
     src: url(./Lemonada-VariableFont_wght.ttf);
-  }
+}
 
 .home-jurnal {
     position: absolute;
-left: 45px;
-right: 82.75%;
-top: 55px;
-bottom: 90.07%;
+    left: 45px;
+    right: 82.75%;
+    top: 55px;
+    bottom: 90.07%;
 }
 
 .diary-jurnal-1 {
@@ -22,94 +21,90 @@ bottom: 90.07%;
     height: 33px;
     left: 90px;
     top: 20px;
-    
+
     font-family: diary;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
     line-height: 150%;
     /* or 24px */
-    
+
     text-align: center;
-    
+
     color: #204051;
-    
+
     mix-blend-mode: normal;
 }
 
 .form-control-jurnall {
     position: absolute;
-    left: 10%;
+    left: 22px;
     width: 333px;
     right: 9.95%;
     top: 18.04%;
     bottom: 60.56%;
     text-align: center;
-    background: #D2FFE3;
+    background: #d2ffe3;
     /* Colors / Black */
-    
-    
-    border: 2px solid #18191F;
+
+    border: 2px solid #18191f;
     box-sizing: border-box;
     border-radius: 16px;
-    
 }
 
-
-.jadwal-jurnal-1{
+.jadwal-jurnal-1 {
     position: absolute;
-width: 305px;
-height: 25px;
-left: 65px;
-top: 91px;
+    width: 305px;
+    height: 25px;
+    left: 50px;
+    top: 91px;
 
-font-family: diary;
-font-style: normal;
-font-weight: 600;
-font-size: 10px;
-line-height: 150%;
-/* or 16px */
+    font-family: diary;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 150%;
+    /* or 16px */
 
-text-align: center;
+    text-align: center;
 
-color: #000000;
-
+    color: #000000;
 }
 
-
-
-.ava{
+.ava {
     position: absolute;
-width: 279px;
-height: 95px;
-left: 65px;
-top: 310px;
+    width: 279px;
+    height: 95px;
+    left: 50px;
+    top: 310px;
 }
-.cal{
+.cal {
     position: absolute;
-width: 146px;
-height: 22px;
-left: 70px;
-top: 407px;
+    width: 146px;
+    height: 22px;
+    left: 70px;
+    top: 407px;
 
-font-family: Lemonada;
-font-style: normal;
-font-weight: bold;
-font-size: 12px;
-line-height: 150%;
-/* or 18px */
+    font-family: Lemonada;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 150%;
+    /* or 18px */
 
-text-align: center;
+    text-align: center;
 
-color: #000000;
-
+    color: #000000;
 }
 
-.kalender{
-  position: absolute;
-width: 279px;
-height: 217px;
-left: 70px;
-top: 431px;
+.kalender {
+    position: absolute;
+    width: 279px;
+    height: 217px;
+    left: 50px;
+    top: 431px;
+}
 
+textarea.placeholder {
+    text-align: center;
 }
