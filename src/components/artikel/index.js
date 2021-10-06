@@ -17,7 +17,10 @@ export default function Artikel() {
             </div>
             <h6 class="subtittle-psikolog">Pilih artikel yang menarik !</h6>
             <div>
-                <a href className="card-artikel">
+                <a
+                    href="https://www.halodoc.com/artikel"
+                    className="card-artikel"
+                >
                     <div className="judul-artikel">
                         <p>Curhat Bisa Membantu Kesehatan Mental</p>
                     </div>
@@ -34,7 +37,10 @@ export default function Artikel() {
             </div>
 
             <div>
-                <a href className="card-artikel2">
+                <a
+                    href="https://www.halodoc.com/artikel"
+                    className="card-artikel2"
+                >
                     <div className="judul-artikel">
                         <p>Curhat Bisa Membantu Kesehatan Mental</p>
                     </div>
@@ -51,7 +57,10 @@ export default function Artikel() {
             </div>
 
             <div>
-                <a href className="card-artikel3">
+                <a
+                    href="https://www.halodoc.com/artikel"
+                    className="card-artikel3"
+                >
                     <div className="judul-artikel">
                         <p>Curhat Bisa Membantu Kesehatan Mental</p>
                     </div>
@@ -68,7 +77,10 @@ export default function Artikel() {
             </div>
 
             <div>
-                <a href className="card-artikel4">
+                <a
+                    href="https://www.halodoc.com/artikel"
+                    className="card-artikel4"
+                >
                     <div className="judul-artikel">
                         <p>Curhat Bisa Membantu Kesehatan Mental</p>
                     </div>
