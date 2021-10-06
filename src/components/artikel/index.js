@@ -8,7 +8,7 @@ export default function Artikel() {
     return (
         <div>
             <Link to="/homepage">
-                <a href className="back-artikel">
+                <a href="#" className="back-artikel">
                     <img src={back} alt="back" />
                 </a>
             </Link>

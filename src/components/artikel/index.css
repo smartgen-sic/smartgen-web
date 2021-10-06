@@ -81,7 +81,7 @@
     top: 45px !important;
 }
 .title {
-    left:75px;
+    left: 75px;
     top: 5px;
 }
 
@@ -91,8 +91,8 @@
 
 .back-artikel {
     position: absolute;
-width: 32px;
-height: 32px;
-left: 55px;
-top: 40px;
+    width: 32px;
+    height: 32px;
+    left: 10px;
+    top: 40px;
 }
