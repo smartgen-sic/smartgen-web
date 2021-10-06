@@ -15,28 +15,28 @@ export default function Data() {
     <Link to="/sukses">
     <div className="back-bayar">
         <img src={back} alt="back"></img> </div></Link>
-    <div class="Smartgen"></div>
-    <div class="back-icon">
-    <i class="fas fa-chevron-left"></i></div>
+    <div className="Smartgen"></div>
+    <div className="back-icon">
+    <i className="fas fa-chevron-left"></i></div>
     <h1>Smartgen</h1>
     <h5>Pembayaran Konsultasi Psikologi</h5>
     <div className="psikolog-done">
     <img src= {psikolog} alt="udh milih psikolog" /></div>
-    <div class="sesi">
+    <div className="sesi">
     <p> Total price</p> 
     <p>Session fee for 2 hours</p></div>
-    <p class="price">Rp. 100.000</p>
-    <p class="method">Payment method</p>
+    <p className="price">Rp. 100.000</p>
+    <p className="method">Payment method</p>
     <Link to="/sukses"> 
-    <button type="button" class="gopay">
+    <button type="button" className="gopay">
         <img src={gopay} alt="gopay" />
     </button></Link>
     <Link to="/sukses">
-    <button type="button" class="ovo">
+    <button type="button" className="ovo">
         <img src={ovo} alt="ovo" />
     </button></Link>
     <Link to="/sukses">
-    <button type="button" class="dana">
+    <button type="button" className="dana">
         <img src={dana} alt="dana" />
     </button></Link>
   

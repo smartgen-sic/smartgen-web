@@ -52,7 +52,7 @@ export default function Bot() {
     <div className="memaparkan">
                 <input
                     type="email"
-                    class="form-control-paparan"
+                    className="form-control-paparan"
                     id="exampleFormControlInput1"
                     placeholder="paparkan cara belajarmu"
                     name="your direct name"

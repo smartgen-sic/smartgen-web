@@ -9,14 +9,14 @@ export default function Data() {
     return (
         <body>
             <Link to="/signup">
-                <div class="back-regist">
+                <div className="back-regist">
                     <img src={Back} alt="back" />
                 </div>
             </Link>
             <div className="regist-title">
                 <h1>SmartGen</h1>
             </div>
-            <div class="logo-suzy">
+            <div className="logo-suzy">
                 <img src={logo} alt="Logo" />
             </div>
             <div className="form-label-name">
@@ -25,19 +25,19 @@ export default function Data() {
             <div className="form-control-nama-regist">
                 <input
                     type="email"
-                    class="form-control-name-regist"
+                    className="form-control-name-regist"
                     id="exampleFormControlInput1"
                     placeholder="your direct name"
                     name="your direct name"
                     onChange={(event) => console.log("onchange berubah")}
                 />{" "}
             </div>
-            <label for="exampleFormControlInput1" class="form-label-dua">
+            <label for="exampleFormControlInput1" className="form-label-dua">
                 What's your gender?
             </label>
 
-            <div class="p-2 bd-highlight"></div>
-            <button type="button" class="button-female">
+            <div className="p-2 bd-highlight"></div>
+            <button type="button" className="button-female">
                 Female
             </button>
 

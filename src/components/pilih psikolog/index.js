@@ -19,15 +19,15 @@ export default function Register() {
             <div className="tittle-psikolog1">
                 <h1>SmartGen</h1>
             </div>
-            <h6 class="subtittle-psikolog">
+            <h6 className="subtittle-psikolog">
                 Pilih psikolog yang kamu mau yuk!
             </h6>
             <Link to="/pembayaran">
                 {" "}
                 <div>
-                    <button type="button" class="button-psikolog">
-                        <h6 class="nama-psikolog">Nadhifah M.Psi</h6>
-                        <p class="spesialis">Spesialis pendidikan</p>
+                    <button type="button" className="button-psikolog">
+                        <h6 className="nama-psikolog">Nadhifah M.Psi</h6>
+                        <p className="spesialis">Spesialis pendidikan</p>
                         <div className="star">
                             <i>
                                 {" "}
@@ -40,20 +40,20 @@ export default function Register() {
                                 4.8
                             </i>
                         </div>
-                        <img class="photo-psikolog" src={satu} alt="satu" />
+                        <img className="photo-psikolog" src={satu} alt="satu" />
                     </button>
                 </div>
             </Link>
             <Link to="/pembayaran">
                 <button
                     type="button"
-                    class="button-disable"
+                    className="button-disable"
                     disabled
                     data-bs-toggle="button"
                     autocomplete="off"
                 >
-                    <h6 class="nama-psikolog-dua">Fitra Nur M.Psi</h6>
-                    <p class="spesialis-dua">Spesialis keluarga</p>
+                    <h6 className="nama-psikolog-dua">Fitra Nur M.Psi</h6>
+                    <p className="spesialis-dua">Spesialis keluarga</p>
                     <div className="star-2">
                         <i>
                             <img
@@ -65,19 +65,19 @@ export default function Register() {
                             4.9
                         </i>
                     </div>
-                    <img class="photo-psikolog-2" src={dua} alt="dua" />
+                    <img className="photo-psikolog-2" src={dua} alt="dua" />
                 </button>
             </Link>
             <Link to="/pembayaran">
                 <button
                     type="button"
-                    class="button-disable-dua"
+                    className="button-disable-dua"
                     disabled
                     data-bs-toggle="button"
                     autocomplete="off"
                 >
-                    <h6 class="nama-psikolog-tiga">Eris Fadil M.Psi</h6>
-                    <p class="spesialis-tiga">Spesialis pertemanan</p>
+                    <h6 className="nama-psikolog-tiga">Eris Fadil M.Psi</h6>
+                    <p className="spesialis-tiga">Spesialis pertemanan</p>
                     <div className="star-3">
                         <i>
                             {" "}
@@ -90,19 +90,19 @@ export default function Register() {
                             4.8
                         </i>
                     </div>
-                    <img class="photo-psikolog-3" src={tiga} alt="tiga" />
+                    <img className="photo-psikolog-3" src={tiga} alt="tiga" />
                 </button>
             </Link>
             <Link to="/pembayaran">
                 <button
                     type="button"
-                    class="button-disable-tiga"
+                    className="button-disable-tiga"
                     disabled
                     data-bs-toggle="button"
                     autocomplete="off"
                 >
-                    <h6 class="nama-psikolog-empat">Andri Setia M.Psi</h6>
-                    <p class="spesialis-empat">Spesialis sosial</p>
+                    <h6 className="nama-psikolog-empat">Andri Setia M.Psi</h6>
+                    <p className="spesialis-empat">Spesialis sosial</p>
                     <div className="star-4">
                         <i>
                             {" "}
@@ -115,7 +115,7 @@ export default function Register() {
                             4.7{" "}
                         </i>
                     </div>
-                    <img class="photo-psikolog-4" src={empat} alt="empat" />
+                    <img className="photo-psikolog-4" src={empat} alt="empat" />
                 </button>
             </Link>
 

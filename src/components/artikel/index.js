@@ -15,7 +15,7 @@ export default function Artikel() {
             <div className="title">
                 <h1>SmartGen</h1>
             </div>
-            <h6 class="subtittle-psikolog">Pilih artikel yang menarik !</h6>
+            <h6 className="subtittle-psikolog">Pilih artikel yang menarik !</h6>
             <div>
                 <a
                     href="https://www.halodoc.com/artikel"
