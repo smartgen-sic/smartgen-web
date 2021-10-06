@@ -10,34 +10,34 @@ export default function Login() {
                 <div className="Smartgen">
                     <h1>SmartGen</h1>
                 </div>
-                <h3 class="subtittle-login">Login your account</h3>
+                <h3 className="subtittle-login">Login your account</h3>
                 <input
-                    class="field-signup"
+                    className="field-signup"
                     type="text"
                     placeholder="Email address"
                     aria-label=".form-control-sm example"
                 ></input>
                 <div className="masuk">
-                    <i class="fas fa-user"></i>{" "}
+                    <i className="fas fa-user"></i>{" "}
                 </div>
                 <input
-                    class="field-pw"
+                    className="field-pw"
                     type="password"
                     placeholder="........"
                     aria-label=".form-control-sm example"
                 ></input>
-                <div class="password-icon">
-                    <i class="fas fa-lock"></i>
+                <div className="password-icon">
+                    <i className="fas fa-lock"></i>
                 </div>
-                <h3 class="password">Forgot password?</h3>
+                <h3 className="password">Forgot password?</h3>
                 <Link to="/homepage">
-                    <button type="button" class="button-sign-up">
+                    <button type="button" className="button-sign-up">
                         Login
                     </button>{" "}
                 </Link>
-                <h3 class="account">Don't have an account?</h3>
+                <h3 className="account">Don't have an account?</h3>
                 <Link to="/signup">
-                    <a href class="signup-satu">
+                    <a href className="signup-satu">
                         <h3>Sign Up</h3>
                     </a>
                 </Link>
@@ -47,7 +47,7 @@ export default function Login() {
                     integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
                     crossorigin="anonymous"
                 ></script>
-                <h3 class="google">Or login with</h3>
+                <h3 className="google">Or login with</h3>
                 <div className="garis-login-satu">
                     <hr />
                 </div>

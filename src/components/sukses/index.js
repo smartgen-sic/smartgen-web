@@ -7,13 +7,13 @@ export default function Sukses() {
     return (
         <div>
             <body>
-                <h1 class="tittle">SmartGen</h1>
-                <div class="succes-pay">
+                <h1 className="tittle">SmartGen</h1>
+                <div className="succes-pay">
                     <img src={hands} alt="gambar" />
                 </div>
-                <p class="text-sukses">Payment Success</p>
+                <p className="text-sukses">Payment Success</p>
                 <Link to="/psikologg">
-                    <button type="button" class="button-start">
+                    <button type="button" className="button-start">
                         Start
                     </button>
                 </Link>

@@ -26,13 +26,16 @@ export default function Homepage() {
                 <hr />
             </div>
             <Link to="/bot">
-                <button type="button" class="button-home">
-                    <div class="rectangle">
-                        <div class="kata-button"> Mulai Sesi Curhatmu Yuk!</div>
+                <button type="button" className="button-home">
+                    <div className="rectangle">
+                        <div className="kata-button">
+                            {" "}
+                            Mulai Sesi Curhatmu Yuk!
+                        </div>
                     </div>
                 </button>
             </Link>
-            <div class="perasaan">
+            <div className="perasaan">
                 <p>Bagaimana perasaan kamu hari ini?</p>
             </div>
             <img className="kecewa" src={keewa} alt="kecewa" />
@@ -42,13 +45,13 @@ export default function Homepage() {
             <img className="senang" src={senang} alt="senang" />
             <Link to="/psikologg">
                 <button type="button" className="button-konsul">
-                    <div class="konsul">
+                    <div className="konsul">
                         <img src={konseling} alt="konsul" />
                     </div>
                 </button>
             </Link>
             <Link to="/jurnal">
-                <button type="button" class="button-agenda">
+                <button type="button" className="button-agenda">
                     <div className="agenda">
                         <img src={agenda} alt="agenda" />
                     </div>

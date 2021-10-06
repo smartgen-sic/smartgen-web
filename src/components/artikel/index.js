@@ -8,14 +8,14 @@ export default function Artikel() {
     return (
         <div>
             <Link to="/homepage">
-                <div className="back-artikel">
+                <a href className="back-artikel">
                     <img src={back} alt="back" />
-                </div>
+                </a>
             </Link>
             <div className="title">
                 <h1>SmartGen</h1>
             </div>
-            <h6 class="subtittle-psikolog">Pilih artikel yang menarik !</h6>
+            <h6 className="subtittle-psikolog">Pilih artikel yang menarik !</h6>
             <div>
                 <a
                     href="https://www.halodoc.com/artikel"
@@ -42,11 +42,14 @@ export default function Artikel() {
                     className="card-artikel2"
                 >
                     <div className="judul-artikel">
-                        <p>Cara Bergaul Yang Baik Agar Anda Punya Banyak Teman</p>
+                        <p>
+                            Cara Bergaul Yang Baik Agar Anda Punya Banyak Teman
+                        </p>
                     </div>
                     <div className="isi-artikel">
                         <p>
-                        Karakter terbentuk karena kebiasaan, lingkungan, keturunan dan......
+                            Karakter terbentuk karena kebiasaan, lingkungan,
+                            keturunan dan......
                         </p>
                     </div>
                     <div className="link-artikel">
@@ -65,7 +68,8 @@ export default function Artikel() {
                     </div>
                     <div className="isi-artikel">
                         <p>
-                            Produktifitas kerja acapkali terhambat akibat manajer waktu yang buruk. Padahal......
+                            Produktifitas kerja acapkali terhambat akibat
+                            manajer waktu yang buruk. Padahal......
                         </p>
                     </div>
                     <div className="link-artikel">
@@ -84,7 +88,8 @@ export default function Artikel() {
                     </div>
                     <div className="isi-artikel">
                         <p>
-                        Hidup ini berliku-liku. Adakah hidup seseorang yang selalu lancar dan......
+                            Hidup ini berliku-liku. Adakah hidup seseorang yang
+                            selalu lancar dan......
                         </p>
                     </div>
                     <div className="link-artikel">
