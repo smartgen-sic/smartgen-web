@@ -18,7 +18,7 @@ export default function Homepage() {
                 <img src={profil} alt="pp" />
                 Hi, Wandi
             </div>
-            <img className="style" src={logo} />
+            <img className="style" src={logo} alt="logo" />
             <div className="home-title">
                 <h1>SmartGen</h1>
             </div>
@@ -43,15 +43,14 @@ export default function Homepage() {
             <Link to="/psikologg">
                 <button type="button" className="button-konsul">
                     <div class="konsul">
-                        {" "}
-                        <img src={konseling} />
+                        <img src={konseling} alt="konsul" />
                     </div>
                 </button>
             </Link>
             <Link to="/jurnal">
                 <button type="button" class="button-agenda">
                     <div className="agenda">
-                        <img src={agenda} />
+                        <img src={agenda} alt="agenda" />
                     </div>
                 </button>
             </Link>

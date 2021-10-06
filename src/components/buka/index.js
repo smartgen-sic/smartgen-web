@@ -1,5 +1,4 @@
-import React, { useEffect } from "react";
-import { Redirect } from "react-router-dom";
+import React from "react";
 
 import Smartgen from "./Smartgen.png";
 
@@ -18,7 +17,7 @@ export default function buka() {
                 <br></br>
                 <br></br>
                 <br></br>
-                <img src={Smartgen} />
+                <img src={Smartgen} alt="smartgen" />
             </center>
         </body>
     );

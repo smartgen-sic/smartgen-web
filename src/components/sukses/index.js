@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import "./index.css";
 import hands from "./hands.png";
@@ -9,7 +9,7 @@ export default function Sukses() {
             <body>
                 <h1 class="tittle">SmartGen</h1>
                 <div class="succes-pay">
-                    <img src={hands} />
+                    <img src={hands} alt="gambar" />
                 </div>
                 <p class="text-sukses">Payment Success</p>
                 <Link to="/psikologg">
