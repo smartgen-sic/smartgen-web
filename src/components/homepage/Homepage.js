@@ -28,7 +28,10 @@ export default function Homepage() {
             <Link to="/bot">
                 <button type="button" className="button-home">
                     <div className="rectangle">
-                        <div className="kata-button"> Mulai Sesi Curhatmu Yuk!</div>
+                        <div className="kata-button">
+                            {" "}
+                            Mulai Sesi Curhatmu Yuk!
+                        </div>
                     </div>
                 </button>
             </Link>
