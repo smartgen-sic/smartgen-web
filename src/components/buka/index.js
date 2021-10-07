@@ -19,7 +19,7 @@ export default function buka() {
                 <br></br>
                 <img src={Smartgen} alt="smartgen" />
                 <Link to="/login">
-                    <button type="button" className="button-sign-up">
+                    <button type="button" className="button-buka">
                         Let's go
                     </button>{" "}
                 </Link>

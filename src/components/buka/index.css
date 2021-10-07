@@ -1,3 +1,19 @@
 body {
     background-color: #ECFAF1;
    }
+
+   .button-buka {
+    position: absolute;
+    width: 280px;
+    height: 36.49px;
+    left: 65px;
+    top: 435px;
+    background-color: #c4e0ce;
+    color: #093b1c;
+    border-radius: 48px;
+    font-size: 12px;
+    font-weight: 800;
+    font-family: Sign up;
+    src: url(./Lemonada-VariableFont_wght.ttf);
+    font-style: normal;
+   }

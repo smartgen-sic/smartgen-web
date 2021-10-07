@@ -269,3 +269,18 @@ body {
     left: 0px;
     top: 543px;
 }
+
+.button-sign-up {
+    position: absolute;
+    width: 280px;
+    height: 36.49px;
+    left: 65px;
+    top: 435px;
+    background-color: #18191f;
+    color: #cae8d5;
+    border-radius: 48px;
+    font-size: 12px;
+    font-family: Sign up;
+    src: url(./Lemonada-VariableFont_wght.ttf);
+    font-style: normal;
+}

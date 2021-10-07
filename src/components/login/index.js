@@ -13,7 +13,7 @@ export default function Login() {
                 <h3 className="subtittle-login">Login your account</h3>
                 <input
                     className="field-signup"
-                    type="text"
+                    type="email"
                     placeholder="Email address"
                     aria-label=".form-control-sm example"
                 ></input>
