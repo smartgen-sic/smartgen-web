@@ -2,7 +2,7 @@ body {
     background-color: #ecfaf1;
 }
 @font-face {
-    font-family: Smartgen;
+    font-family: login title;
     src: url(LobsterTwo-Bold.ttf);
 }
 
@@ -10,25 +10,21 @@ body {
     font-family: Sign up;
     src: url(Lemonada-VariableFont_wght.ttf);
 }
-.Smartgen {
+.Smartgen-login {
     position: absolute;
     width: 231px;
     height: 66px;
-    left: 85px;
-    top: 90px;
+    left: 98px;
+    top: 150px;
 
-    font-family: Lobster Two;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 100px;
-    line-height: 150%;
+    font-family: login title;
+  font-size: 40px;
     /* or 72px */
 
     text-align: center;
 
     color: #204051;
 
-    mix-blend-mode: normal;
 }
 
 .login-page {
@@ -143,8 +139,8 @@ body {
     position: absolute;
     width: 200px;
     height: 100px;
-    left: 65px;
-    top: 480px;
+    left: 67px;
+    top: 482px;
 
     font-family: Sign up;
     src: url(LobsterTwo-Bold.ttf);
@@ -162,14 +158,14 @@ body {
     position: absolute;
     width: 85px;
     height: 21px;
-    left: 250px;
+    left: 242px;
     top: 480px;
 
     font-family: Sign up;
 
     font-style: normal;
-    font-weight: 900;
-    font-size: 15px;
+    font-weight: 800;
+    font-size: 13px;
     line-height: 150%;
     /* or 18px */
     text-decoration: none;
@@ -186,7 +182,7 @@ body {
     width: 205px;
     height: 21px;
     left: 105px;
-    top: 530px;
+    top: 550px;
 
     font-family: Sign up;
     src: url(LobsterTwo-Bold.ttf);
@@ -237,10 +233,10 @@ body {
 
 .gambar-google {
     position: absolute;
-    width: 20px;
-    height: 20px;
-    left: 200px;
-    top: 570px;
+    width: 27px;
+    height: 27px;
+    left: 190px;
+    top: 580px;
 }
 
 .garis {

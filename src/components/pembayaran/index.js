@@ -11,15 +11,16 @@ import "./index.css";
 export default function Data() {
     return (
         <body>
+             <div className="smartgen-pembayaran">
+                <p>Smartgen</p> </div>
             <Link to="/psikologg">
                 <div className="back-bayar">
                     <img src={back} alt="back"></img>{" "}
                 </div>
             </Link>
-            <div className="smartgen-pembayaran">
-                <h1>Smartgen</h1>
-                <h5>Pembayaran Konsultasi Psikologi</h5>
-            </div>
+                <div className="atribut">
+                <p>Pembayaran Konsultasi Psikologi</p></div>
+           
             <div className="back-icon">
                 <i className="fas fa-chevron-left"></i>
             </div>

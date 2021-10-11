@@ -20,7 +20,7 @@ export default function Bot() {
             </Link>
 
             <div className="curhat-judul">
-                <h1>Curhat Session</h1>
+                <p>Curhat Session</p>
             </div>
             <div className="semangat">
                 <img src={satu} alt="semangat" />
@@ -38,7 +38,7 @@ export default function Bot() {
                 <p className="Teman">Teman</p>
             </button>
             <button type="button" className="button-kebiasaan">
-                <p className="kebiasaan">kebiasaan</p>
+                <p className="kebiasaan-text">kebiasaan</p>
             </button>
 
             <div className="wandi">

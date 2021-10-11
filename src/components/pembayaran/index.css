@@ -16,23 +16,12 @@ body {
     width: 28px;
     height: 28px;
     left: 50px;
-    top: 40px;
+    top: 75px;
 }
 
-h1 {
-    font-family: "Smartgen";
-    font-variant: inherit;
-    font-size: 36px;
-    font-weight: 900;
-    color: rgb(40, 48, 95);
-    margin-left: 20px;
-    text-align: center;
-    position: relative;
-    top: 10px;
-}
 
-h5 {
-    font-family: "sign up";
+.atribut {
+    font-family: sign up;
 
     font-size: 12px;
     font-weight: 900;
@@ -40,7 +29,8 @@ h5 {
     margin-left: 20px;
     text-align: center;
     position: relative;
-    top: 5px;
+    top: 130px;
+    font-size: 12px;
 }
 
 .sesi {
@@ -48,7 +38,7 @@ h5 {
     width: 167.48px;
     height: 41px;
     left: 65px;
-    top: 340px;
+    top: 280px;
 
     font-family: sign up;
     font-style: normal;
@@ -63,8 +53,8 @@ h5 {
     position: absolute;
     width: 80.89px;
     height: 18px;
-    left: 230px;
-    top: 0px;
+    left: 204px;
+    top: 31px;
 
     font-family: sign up;
     font-size: 12px;
@@ -78,7 +68,7 @@ h5 {
     width: 237px;
     height: 20px;
     left: 90px;
-    top: 120px;
+    top: 125px;
 
     font-family: sign up;
     font-size: 12px;
@@ -88,8 +78,8 @@ h5 {
     position: absolute;
     width: 103px;
     height: 40px;
-    left: 44px;
-    top: 500px;
+    left: 38px;
+    top: 440px;
 
     background: #cbcdcc;
     /* Colors / Black */
@@ -106,8 +96,8 @@ h5 {
     position: absolute;
     width: 103px;
     height: 40px;
-    left: 160px;
-    top: 500px;
+    left: 156px;
+    top: 440px;
 
     background: #cbcdcc;
     /* Colors / Black */
@@ -125,7 +115,7 @@ h5 {
     width: 103px;
     height: 40px;
     left: 275px;
-    top: 500px;
+    top: 440px;
 
     background: #cbcdcc;
     /* Colors / Black */
@@ -141,12 +131,13 @@ h5 {
 .smartgen-pembayaran {
     position: absolute;
     height: 66px;
-    top: 90px;
-
-    font-family: Lobster Two;
+    top: 60px;
+    left:140px;
+    
+    font-family: smartgen;
     font-style: normal;
     font-weight: bold;
-    font-size: 100px;
+    font-size: 40px;
     line-height: 150%;
     /* or 72px */
 
@@ -162,5 +153,5 @@ h5 {
     width: 293px;
     height: 94px;
     left: 62px;
-    top: 200px;
+    top: 170px;
 }

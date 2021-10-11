@@ -15,7 +15,7 @@ export default function Fitur() {
                     <img src={Home} alt="home" />
                 </div>
             </Link>
-            <h1 className="tittle-fitur">SmartGen</h1>
+            <p className="tittle-fitur">SmartGen</p>
             <div className="subtittle-fitur">
                 <p>
                     There are several options that can help solve your problem.

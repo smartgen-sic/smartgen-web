@@ -12,7 +12,7 @@ body {
     width: 231px;
     height: 29px;
     left: calc(50% - 231px / 2 - 0.5px);
-    top: 10px;
+    top: 37px;
 
     font-family: Curhat Session;
     src: url(Lemonada-VariableFont_wght.ttf);
@@ -65,7 +65,7 @@ body {
     width: 51px;
     height: 16px;
     left: 19px;
-    top: -6px;
+    top: 4px;
 
     font-family: Lemonada;
     font-style: normal;
@@ -93,8 +93,8 @@ body {
     position: absolute;
     width: 51px;
     height: 16px;
-    left: 15px;
-    top: -6px;
+    left: 14px;
+    top: 4px;
 
     font-family: Lemonada;
     font-style: normal;
@@ -124,7 +124,7 @@ body {
     width: 51px;
     height: 16px;
     left: 15px;
-    top: -6px;
+    top: 4px;
 
     font-family: Lemonada;
     font-style: normal;
@@ -149,12 +149,12 @@ body {
     border-radius: 12px;
 }
 
-.kebiasaan {
+.kebiasaan-text {
     position: absolute;
     width: 51px;
     height: 16px;
-    left: 9px;
-    top: -6px;
+    left: 7px;
+    top: 4px;
 
     font-family: Lemonada;
     font-style: normal;
@@ -169,6 +169,7 @@ body {
 
     color: #ffffff;
 }
+
 
 .respon {
     position: absolute;
@@ -207,8 +208,8 @@ body {
     position: absolute;
     width: 51px;
     height: 16px;
-    left: 19px;
-    top: -6px;
+    left: 18px;
+    top: 4px;
 
     font-family: Lemonada;
     font-style: normal;
@@ -238,8 +239,8 @@ body {
     position: absolute;
     width: 51px;
     height: 16px;
-    left: 15px;
-    top: -6px;
+    left: 17px;
+    top: 4px;
 
     font-family: Lemonada;
     font-style: normal;
@@ -283,7 +284,7 @@ body {
     height: 52px;
     width: 235px;
     left: 45px;
-    top: 490px;
+    top: 495px;
 
     font-family: Curhat Session;
     background: rgba(255, 255, 255, 0.73);
@@ -305,7 +306,7 @@ body {
     width: 229.87px;
     height: 38px;
     left: 40px;
-    top: 600px;
+    top: 615px;
 
     text-align: left;
     font-family: Lemonada;
@@ -365,8 +366,8 @@ body {
     position: absolute;
     width: 95px;
     height: 16px;
-    left: 9px;
-    top: -8px;
+    left:8px;
+    top: 4px;
 
     font-family: Lemonada;
     font-style: normal;
@@ -412,7 +413,7 @@ body {
     position: absolute;
     height: 16px;
     left: 60px;
-    top: -6px;
+    top: 4px;
 
     font-family: Lemonada;
     font-style: normal;
@@ -442,7 +443,7 @@ body {
     width: 232.95px;
     height: 25px;
     left: 49px;
-    top: 540px;
+    top: 555px;
 
     font-family: Lemonada;
     font-style: normal;
@@ -470,7 +471,7 @@ body {
     width: 95px;
     height: 16px;
     left: 9px;
-    top: -6px;
+    top: 4px;
 
     font-family: Lemonada;
     font-style: normal;
@@ -490,8 +491,8 @@ body {
     position: absolute;
     width: 95px;
     height: 16px;
-    left: 9px;
-    top: -8px;
+    left: 8px;
+    top: 3px;
 
     font-family: Lemonada;
     font-style: normal;

@@ -17,7 +17,7 @@ export default function jurnal() {
                 </Link>
 
                 <div className="diary-jurnal-1">
-                    <h1>Diary Journal</h1>
+                    <p>Diary Journal</p>
                 </div>
                 <p className="jadwal-jurnal-1">
                     Yuk jadwalin kegiatan positif kamu..
@@ -39,9 +39,11 @@ export default function jurnal() {
                 <div className="ava">
                     <img src={Avatar} alt="avatar" />
                 </div>
-
+                <div>
+                    <a href="https://www.google.com/calendar">
                 <div className="kalender">
                     <img src={Kalender} alt="kalender" />
+                </div></a>
                 </div>
 
                 <script

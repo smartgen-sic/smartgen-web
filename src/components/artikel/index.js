@@ -13,7 +13,7 @@ export default function Artikel() {
                 </a>
             </Link>
             <div className="title">
-                <h1>SmartGen</h1>
+                <p>SmartGen</p>
             </div>
             <h6 className="subtittle-psikolog">Pilih artikel yang menarik !</h6>
             <div>

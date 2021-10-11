@@ -14,7 +14,7 @@ export default function Data() {
                 </div>
             </Link>
             <div className="regist-title">
-                <h1>SmartGen</h1>
+                <p>SmartGen</p>
             </div>
             <div className="logo-suzy">
                 <img src={logo} alt="Logo" />

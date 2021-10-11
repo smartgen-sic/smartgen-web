@@ -14,7 +14,7 @@ body {
     width: 231px;
     height: 66px;
     left: calc(50% - 231px / 2 - 0.5px);
-    top: 10px;
+    top: 40px;
     font-family: Homepage;
     src: url(./LobsterTwo-Bold.ttf);
     font-style: normal;

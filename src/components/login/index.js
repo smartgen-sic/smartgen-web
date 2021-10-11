@@ -7,8 +7,8 @@ export default function Login() {
     return (
         <body>
             <center>
-                <div className="Smartgen">
-                    <h1>SmartGen</h1>
+                <div className="Smartgen-login">
+                    <p>SmartGen</p>
                 </div>
                 <h3 className="subtittle-login">Login your account</h3>
                 <input
@@ -29,7 +29,7 @@ export default function Login() {
                 <div className="password-icon">
                     <i className="fas fa-lock"></i>
                 </div>
-                <h3 className="password">Forgot password?</h3>
+               
                 <Link to="/homepage">
                     <button type="button" className="button-sign-up">
                         Login
