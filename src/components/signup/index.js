@@ -1,8 +1,26 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Signup.css";
-import { Link } from "react-router-dom";
+import { useDispatch } from "react-redux";
+import { registerActions } from "../../redux/actions/Signup.actions";
+import { useHistory } from "react-router-dom";
 
 export default function Signup() {
+    const dispatch = useDispatch();
+    const history = useHistory();
+
+    const [register, setRegister] = useState({
+        username: "",
+        nama: "",
+        password: "",
+    });
+
+    const handleChange = (field, value) => {
+        setRegister((prevState) => ({
+            ...prevState,
+            [field]: value,
+        }));
+    };
+
     return (
         <body>
             <center>
@@ -12,38 +30,41 @@ export default function Signup() {
                 <div className="subtittle-signup">
                     <h5>Sign up your account</h5>
                 </div>
-                <input
-                    className="field-signup"
-                    type="text"
-                    placeholder="Email address"
-                    aria-label=".form-control-sm example"
-                ></input>
-                <div className="signup">
-                    <i className="fas fa-user"></i>{" "}
-                </div>
-                <input
-                    className="field-pw"
-                    type="password"
-                    placeholder="........"
-                    aria-label=".form-control-sm example"
-                ></input>
-                <div className="password-icon">
-                    <i className="fas fa-lock"></i>
-                </div>
-                <input
-                    className="field-pw-again"
-                    type="password"
-                    placeholder="password again"
-                    aria-label=".form-control-sm example"
-                ></input>
-                <div className="password-icon-again">
-                    <i className="fas fa-lock"></i>
-                </div>
-                <Link to="/register">
-                    <button type="button" className="button-sign-up">
-                        Sign up
-                    </button>{" "}
-                </Link>
+                <form
+                    onSubmit={(e) =>
+                        dispatch(registerActions(register, e, history))
+                    }
+                >
+                    <input
+                        className="field-signup"
+                        type="text"
+                        placeholder="Email address"
+                        aria-label=".form-control-sm example"
+                        value={register.username}
+                        onChange={(e) =>
+                            handleChange("username", e.target.value)
+                        }
+                    />
+                    <input
+                        className="field-pw-again"
+                        type="text"
+                        placeholder="   "
+                        aria-label=".form-control-sm example"
+                        value={register.nama}
+                        onChange={(e) => handleChange("nama", e.target.value)}
+                    />
+                    <input
+                        className="field-pw"
+                        type="password"
+                        placeholder="........"
+                        aria-label=".form-control-sm example"
+                        value={register.password}
+                        onChange={(e) =>
+                            handleChange("password", e.target.value)
+                        }
+                    />
+                    <button className="button-sign-up">Sign up</button>{" "}
+                </form>
             </center>
         </body>
     );

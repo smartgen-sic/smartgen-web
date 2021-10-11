@@ -17,18 +17,12 @@ export default function Login() {
                     placeholder="Email address"
                     aria-label=".form-control-sm example"
                 ></input>
-                <div className="masuk">
-                    <i className="fas fa-user"></i>{" "}
-                </div>
                 <input
                     className="field-pw"
                     type="password"
                     placeholder="........"
                     aria-label=".form-control-sm example"
                 ></input>
-                <div className="password-icon">
-                    <i className="fas fa-lock"></i>
-                </div>
                 <h3 className="password">Forgot password?</h3>
                 <Link to="/homepage">
                     <button type="button" className="button-sign-up">
