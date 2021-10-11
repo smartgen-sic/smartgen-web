@@ -4,15 +4,15 @@ body {
 
 .button-buka {
     position: absolute;
-    width: 280px;
-    height: 36.49px;
-    left: 65px;
-    top: 470px;
-    background-color: #c4e0ce;
-    color: #093b1c;
+    height: 35px;
+    width: 276px;
+    left: 70px;
+    top: 535px;
+    color: #ecfaf1;
+    background: #18191f;
     border-radius: 48px;
+    font-family: sign up;
     font-size: 12px;
-    font-weight: 800;
     font-family: Sign up;
     src: url(./Lemonada-VariableFont_wght.ttf);
     font-style: normal;
