@@ -5,6 +5,7 @@ import { Button, Modal, InputGroup, FormControl } from "react-bootstrap";
 
 export default function Sukses() {
     const [show, setShow] = useState(false);
+    const [click, setClick] = useState("Copy");
     const [random, setRandom] = useState(0);
     let myInput = null;
 
@@ -14,6 +15,7 @@ export default function Sukses() {
     const copyToClipboard = () => {
         myInput.select();
         document.execCommand("copy");
+        setClick("Copied!");
     };
 
     const handleRandom = () => {
@@ -26,10 +28,14 @@ export default function Sukses() {
     return (
         <div>
             <Modal show={show} onHide={handleClose}>
-                <Modal.Header>
+                <Modal.Header
+                    style={{ backgroundColor: "#E9FBEF", borderStyle: "none" }}
+                >
                     <Modal.Title>ID Chat</Modal.Title>
                 </Modal.Header>
-                <Modal.Body>
+                <Modal.Body
+                    style={{ backgroundColor: "#E9FBEF", borderStyle: "none" }}
+                >
                     <InputGroup className="mb-3">
                         <FormControl
                             readOnly
@@ -39,15 +45,19 @@ export default function Sukses() {
                         />
                         <Button
                             variant="outline-secondary"
+                            className="text-light"
                             id="button-addon2"
                             onClick={copyToClipboard}
+                            style={{ backgroundColor: "#18191F" }}
                         >
-                            Copy
+                            {click}
                         </Button>
                     </InputGroup>
                 </Modal.Body>
-                <Modal.Footer>
-                    <Button variant="secondary" onClick={handleClose}>
+                <Modal.Footer
+                    style={{ backgroundColor: "#E9FBEF", borderStyle: "none" }}
+                >
+                    <Button variant="danger" onClick={handleClose}>
                         Close
                     </Button>
                     <Button variant="primary" onClick={handleClose}>
