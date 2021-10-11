@@ -15,7 +15,7 @@ body {
     position: absolute;
     width: 231px;
     height: 66px;
-    left: 80px;
+    left: 98px;
     top: 45px;
 
     font-family: Smartgen;
@@ -155,6 +155,8 @@ body {
 
 .artikel-home {
     font-family: sign up;
+    font-size: 12px;
+    font-weight: 600;
     margin-top: 20px;
     align-items: center;
 

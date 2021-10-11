@@ -63,7 +63,7 @@ export default function Sukses() {
             </Modal>
 
             <body>
-                <h1 className="tittle-sukses">SmartGen</h1>
+                <p className="tittle-sukses">SmartGen</p>
                 <div className="succes-pay">
                     <img src={hands} alt="gambar" />
                 </div>

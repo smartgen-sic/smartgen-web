@@ -13,9 +13,11 @@ export default function Artikel() {
                 </a>
             </Link>
             <div className="title">
-                <h1>SmartGen</h1>
+                <p>SmartGen</p>
             </div>
-            <h6 className="subtittle-psikolog">Pilih artikel yang menarik !</h6>
+            <h6 className="subtittle-psikolog-artikel">
+                Pilih artikel yang menarik !
+            </h6>
             <div>
                 <a
                     href="https://www.halodoc.com/artikel"

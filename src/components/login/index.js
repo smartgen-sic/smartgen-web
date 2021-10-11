@@ -7,8 +7,8 @@ export default function Login() {
     return (
         <body>
             <center>
-                <div className="Smartgen">
-                    <h1>SmartGen</h1>
+                <div className="Smartgen-login">
+                    <p>SmartGen</p>
                 </div>
                 <h3 className="subtittle-login">Login your account</h3>
                 <input

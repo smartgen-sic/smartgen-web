@@ -25,10 +25,10 @@ export default function Signup() {
         <body>
             <center>
                 <div className="smartgen-signup">
-                    <h1>SmartGen</h1>
+                    <p>SmartGen</p>
                 </div>
                 <div className="subtittle-signup">
-                    <h5>Sign up your account</h5>
+                    <p>Sign up your account</p>
                 </div>
                 <form
                     onSubmit={(e) =>

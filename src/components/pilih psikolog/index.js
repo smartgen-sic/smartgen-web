@@ -17,7 +17,7 @@ export default function Register() {
                 </div>
             </Link>
             <div className="tittle-psikolog1">
-                <h1>SmartGen</h1>
+                <p>SmartGen</p>
             </div>
             <h6 className="subtittle-psikolog">
                 Pilih psikolog yang kamu mau yuk!

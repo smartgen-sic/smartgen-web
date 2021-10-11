@@ -22,7 +22,7 @@ body {
 .home-psikologg {
     position: absolute;
     left: 50px;
-    top: 60px;
+    top: 67px;
     bottom: 91.45%;
     color: #204051;
 }
@@ -31,14 +31,14 @@ body {
     position: absolute;
     width: 231px;
     height: 66px;
-    left: 80px;
-    top: 40px;
+    left: 98px;
+    top: 50px;
 
     font-family: Smartgen;
     src: url(LobsterTwo-Bold.ttf);
     font-style: normal;
     font-weight: bold;
-    font-size: 36px;
+    font-size: 40px;
     line-height: 150%;
     /* or 54px */
 
@@ -62,7 +62,7 @@ body {
     width: 304px;
     height: 20px;
     left: 55px;
-    margin-top: 50px;
+    margin-top: 125px;
 
     font-family: sign up;
     font-style: normal;
@@ -329,7 +329,7 @@ body {
     left: 6.79%;
     top: 64.28%;
     bottom: 17.97%;
-    font-weight: 800;
+    font-weight: 600;
     font-size: 12px;
 }
 
@@ -342,7 +342,7 @@ body {
     left: 6.79%;
     top: 63.28%;
     bottom: 17.97%;
-    font-weight: 800;
+    font-weight: 600;
     font-size: 12px;
     color: #000000;
 }
@@ -356,7 +356,7 @@ body {
     left: 6.79%;
     top: 63.28%;
     bottom: 17.97%;
-    font-weight: 800;
+    font-weight: 600;
     font-size: 12px;
     color: #000000;
 }
@@ -370,7 +370,7 @@ body {
     left: 6.79%;
     top: 63.28%;
     bottom: 17.97%;
-    font-weight: 800;
+    font-weight: 600;
     font-size: 12px;
     color: #000000;
 }

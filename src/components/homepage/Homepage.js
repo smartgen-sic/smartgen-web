@@ -20,7 +20,7 @@ export default function Homepage() {
             </div>
             <img className="style" src={logo} alt="logo" />
             <div className="home-title">
-                <h1>SmartGen</h1>
+                <p>SmartGen</p>
             </div>
             <div className="garis-home">
                 <hr />
