@@ -48,7 +48,7 @@ export default function Signup() {
                     <input
                         className="field-pw-again"
                         type="text"
-                        placeholder="   "
+                        placeholder="Password again"
                         aria-label=".form-control-sm example"
                         value={register.nama}
                         onChange={(e) => handleChange("nama", e.target.value)}
@@ -56,7 +56,7 @@ export default function Signup() {
                     <input
                         className="field-pw"
                         type="password"
-                        placeholder="........"
+                        placeholder="Password"
                         aria-label=".form-control-sm example"
                         value={register.password}
                         onChange={(e) =>

@@ -20,7 +20,7 @@ export default function Login() {
                 <input
                     className="field-pw"
                     type="password"
-                    placeholder="........"
+                    placeholder="Password"
                     aria-label=".form-control-sm example"
                 ></input>
                 <h3 className="password">Forgot password?</h3>

@@ -28,7 +28,7 @@ export default function Data() {
                     className="form-control-name-regist"
                     id="exampleFormControlInput1"
                     placeholder="your direct name"
-                    name="your direct name"
+                    name="Your direct name"
                     onChange={(event) => console.log("onchange berubah")}
                 />{" "}
             </div>
@@ -55,7 +55,7 @@ export default function Data() {
                     className="form-control-age-regist"
                     id="exampleFormControlInput1"
                     placeholder="your age"
-                    name="your direct name"
+                    name="Your direct name"
                     onChange={(event) => console.log("onchange berubah")}
                 />{" "}
             </div>
