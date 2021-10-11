@@ -37,7 +37,7 @@ export default function Register() {
                                     width="12px"
                                     alt="star"
                                 />
-                                4.8
+                                <span className="m-2">4.8</span>
                             </i>
                         </div>
                         <img className="photo-psikolog" src={satu} alt="satu" />
@@ -62,7 +62,7 @@ export default function Register() {
                                 width="12px"
                                 alt="star"
                             />
-                            4.9
+                            <span className="m-2">4.9</span>
                         </i>
                     </div>
                     <img className="photo-psikolog-2" src={dua} alt="dua" />
@@ -87,7 +87,7 @@ export default function Register() {
                                 width="12px"
                                 alt="star"
                             />
-                            4.8
+                            <span className="m-2">4.8</span>
                         </i>
                     </div>
                     <img className="photo-psikolog-3" src={tiga} alt="tiga" />
@@ -112,7 +112,7 @@ export default function Register() {
                                 width="12px"
                                 alt="star"
                             />
-                            4.7{" "}
+                            <span className="m-2">4.7</span>
                         </i>
                     </div>
                     <img className="photo-psikolog-4" src={empat} alt="empat" />

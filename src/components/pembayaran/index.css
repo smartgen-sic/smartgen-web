@@ -1,145 +1,166 @@
 body {
-    background-color: #ECFAF1;
+    background-color: #ecfaf1;
 }
 @font-face {
     font-family: Smartgen;
     src: url(LobsterTwo-Bold.ttf);
-  }
+}
 
-  @font-face {
+@font-face {
     font-family: sign up;
     src: url(Lemonada-VariableFont_wght.ttf);
-  }
+}
 
-  .back-bayar {
+.back-bayar {
     position: absolute;
     width: 28px;
     height: 28px;
     left: 50px;
     top: 40px;
-    
-  }
+}
 
-  h1 {
-    font-family: 'Smartgen';
+h1 {
+    font-family: "Smartgen";
     font-variant: inherit;
     font-size: 36px;
     font-weight: 900;
-   color: rgb(40, 48, 95);
-   margin-left: 20px;
-   text-align: center;
-   position: relative;
-   top: 10px
-  }
+    color: rgb(40, 48, 95);
+    margin-left: 20px;
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
 
-  h5 {
-    font-family: 'sign up';
+h5 {
+    font-family: "sign up";
 
-    
     font-size: 12px;
     font-weight: 900;
-   color: rgb(2, 2, 5);
-   margin-left: 20px;
-   text-align: center;
-   position: relative;
-   top: 5px
-  }
+    color: rgb(2, 2, 5);
+    margin-left: 20px;
+    text-align: center;
+    position: relative;
+    top: 5px;
+}
 
-  .sesi {
+.sesi {
     position: absolute;
     width: 167.48px;
     height: 41px;
     left: 65px;
-    top: 250px;
-    
+    top: 340px;
+
     font-family: sign up;
     font-style: normal;
     font-weight: normal;
- font-size: 12px;
-    
+    font-size: 12px;
+
     text-align: left;
     color: #000000;
-    
-  }
+}
 
-  .price {
+.price {
     position: absolute;
     width: 80.89px;
     height: 18px;
-    left: 270px;
-    top: 287px;
-    
+    left: 230px;
+    top: 0px;
+
     font-family: sign up;
     font-size: 12px;
     font-style: normal;
     font-weight: normal;
 
     color: #000000;
-    
-  }
-  .method {
-      
-position: absolute;
-width: 237px;
-height: 20px;
-left: 150px;
-top: 365px;
+}
+.method {
+    position: absolute;
+    width: 237px;
+    height: 20px;
+    left: 90px;
+    top: 120px;
 
-font-family: sign up;
-font-size: 12px;
-  }
+    font-family: sign up;
+    font-size: 12px;
+}
 
-  .gopay {
+.gopay {
     position: absolute;
     width: 103px;
     height: 40px;
     left: 44px;
-    top: 410px;
-    
-    background: #CBCDCC;
+    top: 500px;
+
+    background: #cbcdcc;
     /* Colors / Black */
-    
-    border: 2px solid #18191F;
+
+    border: 2px solid #18191f;
     box-sizing: border-box;
     /* Shadow / 400 */
-    
-    box-shadow: 0px 4px 0px #18191F;
-    border-radius: 16px;
-  }
 
-  .ovo {
+    box-shadow: 0px 4px 0px #18191f;
+    border-radius: 16px;
+}
+
+.ovo {
     position: absolute;
     width: 103px;
     height: 40px;
     left: 160px;
-    top: 410px;
-    
-    background: #CBCDCC;
+    top: 500px;
+
+    background: #cbcdcc;
     /* Colors / Black */
-    
-    border: 2px solid #18191F;
+
+    border: 2px solid #18191f;
     box-sizing: border-box;
     /* Shadow / 400 */
-    
-    box-shadow: 0px 4px 0px #18191F;
-    border-radius: 16px;
-  }
 
-  .dana {
+    box-shadow: 0px 4px 0px #18191f;
+    border-radius: 16px;
+}
+
+.dana {
     position: absolute;
     width: 103px;
     height: 40px;
     left: 275px;
-    top: 410px;
-    
-    background: #CBCDCC;
+    top: 500px;
+
+    background: #cbcdcc;
     /* Colors / Black */
-    
-    border: 2px solid #18191F;
+
+    border: 2px solid #18191f;
     box-sizing: border-box;
     /* Shadow / 400 */
-    
-    box-shadow: 0px 4px 0px #18191F;
+
+    box-shadow: 0px 4px 0px #18191f;
     border-radius: 16px;
-    
-  }
+}
+
+.smartgen-pembayaran {
+    position: absolute;
+    height: 66px;
+    top: 90px;
+
+    font-family: Lobster Two;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 100px;
+    line-height: 150%;
+    /* or 72px */
+
+    text-align: center;
+
+    color: #204051;
+
+    mix-blend-mode: normal;
+}
+
+.psikolog-done-pemabayaran {
+    position: absolute;
+    width: 293px;
+    height: 94px;
+    left: 62px;
+    top: 200px;
+}

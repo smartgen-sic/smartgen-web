@@ -1,199 +1,184 @@
 body {
-    background-color: #ECFAF1;
+    background-color: #ecfaf1;
 }
 
 @font-face {
-    font-family:Curhat Session ;
+    font-family: Curhat Session;
     src: url(Lemonada-VariableFont_wght.ttf);
 }
 
 .curhat-judul {
     position: absolute;
-width: 231px;
-height: 29px;
-left: calc(50% - 231px/2 - 0.5px);
-top: 10px;
+    width: 231px;
+    height: 29px;
+    left: calc(50% - 231px / 2 - 0.5px);
+    top: 10px;
 
-font-family: Curhat Session;
-src: url(Lemonada-VariableFont_wght.ttf);
-font-style: normal;
-font-weight: bold;
-font-size: 16px;
-line-height: 150%;
-/* or 24px */
+    font-family: Curhat Session;
+    src: url(Lemonada-VariableFont_wght.ttf);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
 
-text-align: center;
+    text-align: center;
 
-color: #204051;
+    color: #204051;
 
-mix-blend-mode: normal;
-
+    mix-blend-mode: normal;
 }
 
 .back-bot {
     position: absolute;
-left: 10%;
-right: 9.95%;
-top: 35px;
+    left: 10%;
+    right: 9.95%;
+    top: 35px;
 }
 
 .semangat {
     position: absolute;
-width: 294px;
-height: 105px;
-left: 37px;
-top: 80px;
-
+    width: 294px;
+    height: 105px;
+    left: 37px;
+    top: 80px;
 }
-.chat{
+.chat {
     position: absolute;
-width: 276px;
-height: 40px;
-left: 50px;
-top: 180px;
-
+    width: 276px;
+    height: 40px;
+    left: 50px;
+    top: 180px;
 }
 
 .button-belajar {
     position: absolute;
-width: 89px;
-height: 28.01px;
-left: 45px;
-top: 230px;
-background: #3B6978;
-border-radius: 12px;
+    width: 89px;
+    height: 28.01px;
+    left: 45px;
+    top: 230px;
+    background: #3b6978;
+    border-radius: 12px;
 }
 .belajar {
     position: absolute;
-width: 51px;
-height: 16px;
-left: 19px;
-top: -6px;
+    width: 51px;
+    height: 16px;
+    left: 19px;
+    top: -6px;
 
-font-family: Lemonada;
-font-style: normal;
-font-weight: normal;
-font-size: 12px;
-line-height: 16px;
-text-align: center !important; 
-/* identical to box height, or 133% */
+    font-family: Lemonada;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center !important;
+    /* identical to box height, or 133% */
 
+    /* Colors / White */
 
-/* Colors / White */
-
-color: #FFFFFF;
-
+    color: #ffffff;
 }
-.button-keluarga{
+.button-keluarga {
     position: absolute;
-width: 89px;
-height: 28.01px;
-left: 145px;
-top: 230px;
-background: #3B6978;
-border-radius: 12px;
+    width: 89px;
+    height: 28.01px;
+    left: 145px;
+    top: 230px;
+    background: #3b6978;
+    border-radius: 12px;
 }
 
-.keluarga{
+.keluarga {
     position: absolute;
     width: 51px;
     height: 16px;
     left: 15px;
     top: -6px;
-    
+
     font-family: Lemonada;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
     line-height: 16px;
     /* identical to box height, or 133% */
-    
+
     text-align: center;
-    
+
     /* Colors / White */
-    
-    color: #FFFFFF;
-    
-    
+
+    color: #ffffff;
 }
-.button-teman{
+.button-teman {
     position: absolute;
-width: 89px;
-height: 28.01px;
-left: 45px;
-top: 265px;
-background: #3B6978;
-border-radius: 12px;
+    width: 89px;
+    height: 28.01px;
+    left: 45px;
+    top: 265px;
+    background: #3b6978;
+    border-radius: 12px;
 }
 
-.Teman{
+.Teman {
     position: absolute;
     width: 51px;
     height: 16px;
     left: 15px;
     top: -6px;
-    
+
     font-family: Lemonada;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
     line-height: 16px;
     /* identical to box height, or 133% */
-    
+
     text-align: center;
-    
+
     /* Colors / White */
-    
-    color: #FFFFFF;
-    
-    
+
+    color: #ffffff;
 }
-.button-kebiasaan{
+.button-kebiasaan {
     position: absolute;
-width: 89px;
-height: 28.01px;
-left: 145px;
-top: 265px;
-background: #3B6978;
-border-radius: 12px;
+    width: 89px;
+    height: 28.01px;
+    left: 145px;
+    top: 265px;
+    background: #3b6978;
+    border-radius: 12px;
 }
 
-.kebiasaan{
+.kebiasaan {
     position: absolute;
     width: 51px;
     height: 16px;
     left: 9px;
     top: -6px;
-    
+
     font-family: Lemonada;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
     line-height: 16px;
     /* identical to box height, or 133% */
-    
+
     text-align: center;
-    
+
     /* Colors / White */
-    
-    color: #FFFFFF;
-    
-    
+
+    color: #ffffff;
 }
 
-
-
-
-.respon{
+.respon {
     position: absolute;
     width: 256px;
     height: 35px;
     left: 15px;
     top: 320px;
-    
 }
 
-.garis{
+.garis {
     position: absolute;
     width: 800px;
     height: 9px;
@@ -201,53 +186,52 @@ border-radius: 12px;
     top: 400px;
 }
 
-.wandi{
+.wandi {
     position: absolute;
-width: 270px;
-height: 38px;
-left: 49px;
-top: 320px;
+    width: 270px;
+    height: 38px;
+    left: 49px;
+    top: 320px;
 }
 
 .button-sudah {
     position: absolute;
-width: 89px;
-height: 28.01px;
-left: 45px;
-top: 370px;
-background: #3B6978;
-border-radius: 12px;
+    width: 89px;
+    height: 28.01px;
+    left: 45px;
+    top: 370px;
+    background: #3b6978;
+    border-radius: 12px;
 }
 .sudah {
     position: absolute;
-width: 51px;
-height: 16px;
-left: 19px;
-top: -6px;
+    width: 51px;
+    height: 16px;
+    left: 19px;
+    top: -6px;
 
-font-family: Lemonada;
-font-style: normal;
-font-weight: normal;
-font-size: 12px;
-line-height: 16px;
-/* identical to box height, or 133% */
+    font-family: Lemonada;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height, or 133% */
 
-text-align: center;
+    text-align: center;
 
-/* Colors / White */
+    /* Colors / White */
 
-color: #FFFFFF;
-
+    color: #ffffff;
 }
 
 .button-belum {
     position: absolute;
-width: 89px;
-height: 28.01px;
-left: 145px;
-top: 370px;
-background: #3B6978;
-border-radius: 12px;
+    width: 89px;
+    height: 28.01px;
+    left: 145px;
+    top: 370px;
+    background: #3b6978;
+    border-radius: 12px;
 }
 
 .belum {
@@ -256,37 +240,35 @@ border-radius: 12px;
     height: 16px;
     left: 15px;
     top: -6px;
-    
+
     font-family: Lemonada;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
     line-height: 16px;
     /* identical to box height, or 133% */
-    
+
     text-align: center;
-    
+
     /* Colors / White */
-    
-    color: #FFFFFF;
-    
+
+    color: #ffffff;
 }
 
 .user {
     position: absolute;
-width: 272px;
-height: 36px;
-left: 17px;
-top: 490px;
+    width: 272px;
+    height: 36px;
+    left: 17px;
+    top: 490px;
 }
 
 .bot {
     position: absolute;
-width: 272px;
-height: 42px;
-left: 49px;
-top: 430px;
-
+    width: 272px;
+    height: 42px;
+    left: 49px;
+    top: 430px;
 }
 
 .form-control-paparan {
@@ -294,7 +276,7 @@ top: 430px;
     flex-direction: row;
     align-items: center;
     padding: 0px;
-    
+
     text-align: center;
     font-size: 11px;
     position: absolute;
@@ -302,7 +284,7 @@ top: 430px;
     width: 235px;
     left: 45px;
     top: 490px;
-    
+
     font-family: Curhat Session;
     background: rgba(255, 255, 255, 0.73);
     border: 1px solid #000000;
@@ -310,44 +292,41 @@ top: 430px;
     border-radius: 12px;
 }
 
-
 .bott {
     position: absolute;
-width: 274px;
-height: 97px;
-left: 49px;
-top: 680px;
-
+    width: 274px;
+    height: 97px;
+    left: 49px;
+    top: 680px;
 }
 
 .bantu-lagi {
     position: absolute;
-width: 229.87px;
-height: 38px;
-left: 40px;
-top: 600px;
+    width: 229.87px;
+    height: 38px;
+    left: 40px;
+    top: 600px;
 
-text-align: left;
-font-family: Lemonada;
-font-style: normal;
-font-weight: bold;
-font-size: 12px;
-line-height: 150%;
-/* or 18px */
+    text-align: left;
+    font-family: Lemonada;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 150%;
+    /* or 18px */
 
-
-color: rgba(0, 0, 0, 0.9);
+    color: rgba(0, 0, 0, 0.9);
 }
 
-.button-cukup{
-        position: absolute;
-        width: 114px;
-        height: 27.89px;
-        left: 35px;
-        top: 670px;
-        border-radius: 12px;
-        
-    background: #3B6978;
+.button-cukup {
+    position: absolute;
+    width: 114px;
+    height: 27.89px;
+    left: 35px;
+    top: 670px;
+    border-radius: 12px;
+
+    background: #3b6978;
 }
 
 .cukup {
@@ -356,31 +335,30 @@ color: rgba(0, 0, 0, 0.9);
     height: 16px;
     left: 9px;
     top: 10px;
-    
+
     font-family: Lemonada;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
     line-height: 16px;
     /* identical to box height, or 133% */
-    
+
     text-align: center;
-    
+
     /* Colors / White */
-    
-    color: #FFFFFF;
-    
+
+    color: #ffffff;
 }
-    
-.button-curhat{
+
+.button-curhat {
     position: absolute;
-        width: 114px;
-        height: 27.89px;
-        left: 160px;
-        top: 670px;
-        border-radius: 12px;
-        
-    background: #3B6978;
+    width: 114px;
+    height: 27.89px;
+    left: 160px;
+    top: 670px;
+    border-radius: 12px;
+
+    background: #3b6978;
 }
 
 .curhat {
@@ -389,47 +367,45 @@ color: rgba(0, 0, 0, 0.9);
     height: 16px;
     left: 9px;
     top: -8px;
-    
+
     font-family: Lemonada;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
     line-height: 16px;
     /* identical to box height, or 133% */
-    
+
     text-align: center;
-    
+
     /* Colors / White */
-    
-    color: #FFFFFF;
+
+    color: #ffffff;
 }
 
-.pilihan{
+.pilihan {
     position: absolute;
-width: 254px;
-height: 36px;
-left: 17px;
-top: 837px;
-
+    width: 254px;
+    height: 36px;
+    left: 17px;
+    top: 837px;
 }
 
-.ending{
+.ending {
     position: absolute;
-width: 273px;
-height: 92px;
-left: 47px;
-top: 730px;
-
+    width: 273px;
+    height: 92px;
+    left: 47px;
+    top: 730px;
 }
-.button-mulai{
+.button-mulai {
     position: absolute;
-        width: 300px;
-        height: 27.89px;
-        left: 38px;
-        top: 840px;
-        border-radius: 12px;
-        
-    background: #3B6978;
+    width: 300px;
+    height: 27.89px;
+    left: 38px;
+    top: 840px;
+    border-radius: 12px;
+
+    background: #3b6978;
 }
 
 .mulai {
@@ -437,47 +413,45 @@ top: 730px;
     height: 16px;
     left: 60px;
     top: -6px;
-    
+
     font-family: Lemonada;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
     line-height: 16px;
     /* identical to box height, or 133% */
-    
+
     text-align: center;
-    
+
     /* Colors / White */
-    
-    color: #FFFFFF;
+
+    color: #ffffff;
 }
 
-.perubahan{
+.perubahan {
     position: absolute;
-width: 286px;
-height: 40px;
-left: 37px;
-top: 880px;
-
+    width: 286px;
+    height: 40px;
+    left: 37px;
+    top: 880px;
+    padding-bottom: 100px;
 }
 
-.pemaparan{
+.pemaparan {
     position: absolute;
     width: 232.95px;
     height: 25px;
     left: 49px;
     top: 540px;
-    
+
     font-family: Lemonada;
     font-style: normal;
     font-weight: 1000;
     font-size: 12px;
     line-height: 150%;
     /* or 18px */
-    
-    
+
     color: rgba(0, 0, 0, 0.9);
-    
 }
 
 .button-next-bot {
@@ -487,30 +461,29 @@ top: 880px;
     left: 220px;
     top: 940px;
     border-radius: 12px;
-    
-background: #2a3133;
+
+    background: #2a3133;
 }
 
-.next  {
-position: absolute;
-width: 95px;
-height: 16px;
-left: 9px;
-top: -6px;
+.next {
+    position: absolute;
+    width: 95px;
+    height: 16px;
+    left: 9px;
+    top: -6px;
 
-font-family: Lemonada;
-font-style: normal;
-font-weight: normal;
-font-size: 12px;
-line-height: 16px;
-/* identical to box height, or 133% */
+    font-family: Lemonada;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height, or 133% */
 
-text-align: center;
+    text-align: center;
 
-/* Colors / White */
+    /* Colors / White */
 
-color: #FFFFFF;
-
+    color: #ffffff;
 }
 
 .cukup-dalem {
@@ -519,17 +492,17 @@ color: #FFFFFF;
     height: 16px;
     left: 9px;
     top: -8px;
-    
+
     font-family: Lemonada;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
     line-height: 16px;
     /* identical to box height, or 133% */
-    
+
     text-align: center;
-    
+
     /* Colors / White */
-    
-    color: #FFFFFF;
+
+    color: #ffffff;
 }
