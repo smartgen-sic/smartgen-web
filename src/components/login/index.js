@@ -38,7 +38,7 @@ export default function Login() {
                 <h3 className="account">Don't have an account?</h3>
                 <Link to="/signup">
                     <a href className="signup-satu">
-                        <h3>Sign Up</h3>
+                        <p>Sign Up</p>
                     </a>
                 </Link>
 

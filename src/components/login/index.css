@@ -69,7 +69,6 @@ body {
     color: #000000;
 }
 
-
 .field-pw {
     position: absolute;
     width: 276px;
@@ -163,16 +162,18 @@ body {
     position: absolute;
     width: 85px;
     height: 21px;
-    left: 240px;
-    top: 479px;
+    left: 250px;
+    top: 490px;
 
     font-family: Sign up;
 
     font-style: normal;
-    font-weight: 500;
-    font-size: 11px;
+    font-weight: 900;
+    font-size: 15px;
     line-height: 150%;
     /* or 18px */
+    text-decoration: none;
+    color: #000b0f !important;
 }
 
 .h2 span {

@@ -45,7 +45,7 @@ body {
     width: 327px;
     height: 40px;
     left: 45px;
-    top: 207px;
+    top: 190px;
 
     font-family: Sign up;
     src: url(Lemonada-VariableFont_wght.ttf);
@@ -180,8 +180,6 @@ body {
     width: 281px;
     height: 40px;
 }
-
-
 
 .password-icon-again {
     display: flex;

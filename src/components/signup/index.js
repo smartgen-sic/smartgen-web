@@ -10,7 +10,7 @@ export default function Signup() {
                     <h1>SmartGen</h1>
                 </div>
                 <div className="subtittle-signup">
-                    <h3>Sign up your account</h3>
+                    <h5>Sign up your account</h5>
                 </div>
                 <input
                     className="field-signup"
