@@ -10,8 +10,17 @@ import marah from "./marah.png";
 import sedih from "./sedih.png";
 import senang from "./senang.png";
 import "./Homepage.css";
+import Swal from 'sweetalert2'
 
 export default function Homepage() {
+
+    Swal.fire({
+        title: 'Error!',
+        text: 'Do you want to continue',
+        icon: 'error',
+        confirmButtonText: 'Cool'
+      })
+      
     return (
         <div>
             <div className="pp-home">
