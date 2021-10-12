@@ -10,17 +10,18 @@ import marah from "./marah.png";
 import sedih from "./sedih.png";
 import senang from "./senang.png";
 import "./Homepage.css";
-import Swal from 'sweetalert2'
+import Swal from "sweetalert2";
 
 export default function Homepage() {
+    const Click = () => {
+        Swal.fire({
+            title: "Error!",
+            text: "Do you want to continue",
+            icon: "error",
+            confirmButtonText: "Cool",
+        });
+    };
 
-    Swal.fire({
-        title: 'Error!',
-        text: 'Do you want to continue',
-        icon: 'error',
-        confirmButtonText: 'Cool'
-      })
-      
     return (
         <div>
             <div className="pp-home">
@@ -47,7 +48,7 @@ export default function Homepage() {
             <div className="perasaan">
                 <p>Bagaimana perasaan kamu hari ini?</p>
             </div>
-            <img className="kecewa" src={keewa} alt="kecewa" />
+            <img className="kecewa" src={keewa} alt="kecewa" onClick={Click} />
             <img className="kesal" src={kesal} alt="kesal" />
             <img className="marah" src={marah} alt="marah" />
             <img className="sedih" src={sedih} alt="sedih" />
