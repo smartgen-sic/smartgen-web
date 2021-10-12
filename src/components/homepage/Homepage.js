@@ -13,14 +13,39 @@ import "./Homepage.css";
 import Swal from "sweetalert2";
 
 export default function Homepage() {
-    const Click = () => {
-        Swal.fire({
-            title: "Error!",
-            text: "Do you want to continue",
-            icon: "error",
-            confirmButtonText: "Cool",
-        });
+    const ClickKecewa = () => {
+    Swal.fire({
+            text: "Ada yang lagi kecewa nih :(                     yakin deh, sebentar lagi hal baik akan datang padamu, semangat terus sahabat Suzy !",
+            confirmButtonText: "Oke",
+      });
     };
+
+    const ClickSedih = () => {
+        Swal.fire({
+                text: "Yah.. kenapa sedih? Semangat dong, jangan bersedih lama - lama engga baik, mending kita happy bareng yuk sahabat Suzy!",
+                confirmButtonText: "Oke",
+          });
+        };
+    
+        const ClickSenang = () => {
+            Swal.fire({
+                    text: "Wih suasana hatimu sedang bagus nih, semangat terus ya sahabat Suzy ^^",
+                    confirmButtonText: "Oke",
+              });
+            };
+    
+            const ClickMarah = () => {
+                Swal.fire({
+                        text: "Hayoloh marah marah nanti cepet tua XX. Selesain dulu masalah nya satu - satu yuk sahabat Suzy ",
+                        confirmButtonText: "Oke",
+                  });
+                };
+                const ClickKesal = () => {
+                    Swal.fire({
+                            text: "Yah kamu lagi kesal ya ? Gapapa wajar kok, tapi jangan biarin kesal hancurin hari kamu yaa sahabat Suzy, Suzy mohon ^o^",
+                            confirmButtonText: "Oke",
+                      });
+                    };
 
     return (
         <div>
@@ -48,11 +73,11 @@ export default function Homepage() {
             <div className="perasaan">
                 <p>Bagaimana perasaan kamu hari ini?</p>
             </div>
-            <img className="kecewa" src={keewa} alt="kecewa" onClick={Click} />
-            <img className="kesal" src={kesal} alt="kesal" />
-            <img className="marah" src={marah} alt="marah" />
-            <img className="sedih" src={sedih} alt="sedih" />
-            <img className="senang" src={senang} alt="senang" />
+            <img className="kecewa" src={keewa} alt="kecewa" onClick={ClickKecewa} />
+            <img className="kesal" src={kesal} alt="kesal" onClick={ClickKesal} />
+            <img className="marah" src={marah} alt="marah" onClick={ClickMarah} />
+            <img className="sedih" src={sedih} alt="sedih" onClick={ClickSedih}  />
+            <img className="senang" src={senang} alt="senang" onClick={ClickSenang} />
             <Link to="/psikologg">
                 <button type="button" className="button-konsul">
                     <div className="konsul">

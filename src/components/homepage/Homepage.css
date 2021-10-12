@@ -335,7 +335,18 @@ body {
 }
 
 .swal2-container.swal2-center > .swal2-popup {
-    width: 300px !important;
-    right: 30px;
+    width: 350px !important;
+    right: 40px;
     top: -100px;
+    background-color: #ECFAF1;
+}
+.swal2-html-container {
+    font-family: sign up;
+    font-weight: 600 !important;
+    font-size: 12px !important;
+    margin-top: 25px !important;
+}
+
+.swal2-styled.swal2-confirm {
+    background-color: #3B6978 !important;
 }
