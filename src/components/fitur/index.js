@@ -4,12 +4,15 @@ import Animasi from "./Animasi.png";
 import Chat from "./Chat.png";
 import People from "./People.png";
 import Home from "./Vector.png";
+import Backg from "./Logo.png";
 
 import "./index.css";
 
 export default function Fitur() {
     return (
         <body>
+            <div>
+                <img src={Backg}  className="bg-fitur" alt="pict" /></div>
             <Link to="/homepage">
                 <div className="home-fitur">
                     <img src={Home} alt="home" />

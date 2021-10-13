@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import profil from "./Ellipse.png";
 import logo from "./Logo.png";
 import agenda from "./agenda.png";
 import keewa from "./keewa.png";
@@ -49,10 +48,6 @@ export default function Homepage() {
 
     return (
         <div>
-            <div className="pp-home">
-                <img src={profil} alt="pp" />
-                Hi, Wandi
-            </div>
             <img className="style" src={logo} alt="logo" />
             <div className="home-title">
                 <p>SmartGen</p>

@@ -311,3 +311,12 @@ color: #204051;
     left: 23px;
     top: 17px;
 }
+
+.bg-fitur {
+    top: 350px;
+    left: 0px;
+    position: absolute;
+    height: 600px;
+    width: 500px;
+    transform: rotate(180deg);
+}
